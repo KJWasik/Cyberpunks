@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: 258b946ce09a0c24d8b3ae9af55a107b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 829673283833226427
+    second: Police Woman Idle_0
+  - first:
+      213: -4101159317324508749
+    second: Police Woman Idle_1
+  - first:
+      213: 3194786230396457157
+    second: Police Woman Idle_2
+  - first:
+      213: 6571717445439598352
+    second: Police Woman Idle_3
+  - first:
+      213: -6799368895736855753
+    second: Police Woman Idle_4
+  - first:
+      213: 8851529712266012184
+    second: Police Woman Idle_5
+  - first:
+      213: 2376899550222377299
+    second: Police Woman Idle_6
+  - first:
+      213: 7486516684122497168
+    second: Police Woman Idle_7
+  - first:
+      213: 6422584200565742303
+    second: Police Woman Idle_8
+  - first:
+      213: -4211149411596055795
+    second: Police Woman Idle_9
+  - first:
+      213: -6755162224693407472
+    second: Police Woman Idle_10
+  - first:
+      213: 7783789416492781828
+    second: Police Woman Idle_11
+  - first:
+      213: 7711811607344902859
+    second: Police Woman Idle_12
+  - first:
+      213: 6079158037795962411
+    second: Police Woman Idle_13
+  - first:
+      213: -5015291026248577012
+    second: Police Woman Idle_14
+  - first:
+      213: -8240392123131661845
+    second: Police Woman Idle_15
+  - first:
+      213: 5341574800194520251
+    second: Police Woman Idle_2
+  - first:
+      213: -525540648881214733
+    second: Police Woman Idle_3
+  - first:
+      213: 5410813544287214044
+    second: Police Woman Idle_4
+  - first:
+      213: -5066698349344188811
+    second: Police Woman Idle_5
+  - first:
+      213: 6414284401545673872
+    second: Police Woman Idle_6
+  - first:
+      213: 3584324521550705013
+    second: Police Woman Idle_7
+  - first:
+      213: -4180901581044747312
+    second: Police Woman Idle_8
+  - first:
+      213: -938063221281630185
+    second: Police Woman Idle_9
+  - first:
+      213: -1846051171354104653
+    second: Police Woman Idle_10
+  - first:
+      213: -4809623950446347863
+    second: Police Woman Idle_11
+  - first:
+      213: -2858173741952394870
+    second: Police Woman Idle_12
+  - first:
+      213: 6028248880587562141
+    second: Police Woman Idle_13
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Police Woman Idle_2
+      rect:
+        serializedVersion: 2
+        x: 2363
+        y: 3347
+        width: 406
+        height: 611
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4c5cadaf5112a40800000000000000
+      internalID: 5341574800194520251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Woman Idle_3
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 3347
+        width: 406
+        height: 611
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa28647097e4b8f0800000000000000
+      internalID: -525540648881214733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Woman Idle_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 2321
+        width: 406
+        height: 611
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd99c153042171b40800000000000000
+      internalID: 5410813544287214044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Woman Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 2321
+        width: 406
+        height: 610
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576184f12b87fa9b0800000000000000
+      internalID: -5066698349344188811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Woman Idle_6
+      rect:
+        serializedVersion: 2
+        x: 2363
+        y: 2321
+        width: 406
+        height: 610
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c757acdad140950800000000000000
+      internalID: 6414284401545673872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Woman Idle_7
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 2321
+        width: 406
+        height: 610
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57170ca69241eb130800000000000000
+      internalID: 3584324521550705013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Woman Idle_8
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1295
+        width: 406
+        height: 610
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d375f4d9247af5c0800000000000000
+      internalID: -4180901581044747312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Woman Idle_9
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1295
+        width: 406
+        height: 611
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71856a668745bf2f0800000000000000
+      internalID: -938063221281630185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Woman Idle_10
+      rect:
+        serializedVersion: 2
+        x: 2363
+        y: 1295
+        width: 406
+        height: 611
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcae3e8d328166e0800000000000000
+      internalID: -1846051171354104653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Woman Idle_11
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 1295
+        width: 406
+        height: 611
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a93f62ef78c04db0800000000000000
+      internalID: -4809623950446347863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Woman Idle_12
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 269
+        width: 406
+        height: 611
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89149cff1ab558d0800000000000000
+      internalID: -2858173741952394870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Woman Idle_13
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 269
+        width: 406
+        height: 611
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c5119fa64a8a350800000000000000
+      internalID: 6028248880587562141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
