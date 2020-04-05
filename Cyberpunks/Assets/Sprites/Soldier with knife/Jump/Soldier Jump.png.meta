@@ -1,49 +1,55 @@
 fileFormatVersion: 2
-guid: 3bc3bd544cc41a3419fedddc3cdcfbca
+guid: cd3d11bd903581b41a76afdcf6cf4435
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6248043447818592091
-    second: Soldier Walk Spritesheet 2_0
+      213: -7273644083751957282
+    second: Soldier Jump_0
   - first:
-      213: -3328923249749412982
-    second: Soldier Walk Spritesheet 2_1
+      213: -8395768459767911600
+    second: Soldier Jump_1
   - first:
-      213: 6020647751973351376
-    second: Soldier Walk Spritesheet 2_2
+      213: -5294806787967641499
+    second: Soldier Jump_2
   - first:
-      213: -6315728677166000226
-    second: Soldier Walk Spritesheet 2_3
+      213: -8543736956333145007
+    second: Soldier Jump_3
   - first:
-      213: -7439035105962778112
-    second: Soldier Walk Spritesheet 2_4
+      213: -5392504734867360025
+    second: Soldier Jump_4
   - first:
-      213: -784928333798216235
-    second: Soldier Walk Spritesheet 2_5
+      213: -6775421324482339253
+    second: Soldier Jump_5
   - first:
-      213: 7812732017823516842
-    second: Soldier Walk Spritesheet 2_6
+      213: -6026511000849765165
+    second: Soldier Jump_6
   - first:
-      213: -5087418257669988306
-    second: Soldier Walk Spritesheet 2_7
+      213: 8096992321606869737
+    second: Soldier Jump_7
   - first:
-      213: 2622714467286416164
-    second: Soldier Walk Spritesheet 2_8
+      213: 8291051829602437981
+    second: Soldier Jump_8
   - first:
-      213: 3810864512079493253
-    second: Soldier Walk Spritesheet 2_9
+      213: 5460201249650624568
+    second: Soldier Jump_9
   - first:
-      213: 2842534342191151901
-    second: Soldier Walk Spritesheet 2_10
+      213: -6856860303727462819
+    second: Soldier Jump_10
   - first:
-      213: -7466121393514348010
-    second: Soldier Walk Spritesheet 2_11
+      213: -2507228289303410158
+    second: Soldier Jump_11
   - first:
-      213: -6591399684569863624
-    second: Soldier Walk Spritesheet 2_12
+      213: -4408019452646387165
+    second: Soldier Jump_12
   - first:
-      213: 2828652967317931721
-    second: Soldier Walk Spritesheet 2_13
+      213: -6934770761463930876
+    second: Soldier Jump_13
+  - first:
+      213: 2988146376593629195
+    second: Soldier Jump_14
+  - first:
+      213: 1965210305988505031
+    second: Soldier Jump_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -105,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,7 +123,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,7 +135,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,7 +147,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -152,295 +158,295 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_0
+      name: Soldier Jump_2
       rect:
         serializedVersion: 2
-        x: 619
-        y: 854
-        width: 74
-        height: 119
+        x: 2052
+        y: 3078
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a0e097769d7a49a0800000000000000
-      internalID: -6248043447818592091
+      spriteID: 5689cd887411586b0800000000000000
+      internalID: -5294806787967641499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_1
+      name: Soldier Jump_3
       rect:
         serializedVersion: 2
-        x: 885
-        y: 855
-        width: 74
-        height: 118
+        x: 3078
+        y: 3078
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a83b52611f94dc1d0800000000000000
-      internalID: -3328923249749412982
+      spriteID: 154c26f318c8e6980800000000000000
+      internalID: -8543736956333145007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_2
+      name: Soldier Jump_4
       rect:
         serializedVersion: 2
-        x: 87
-        y: 589
-        width: 75
-        height: 118
+        x: 0
+        y: 2052
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0df202e4b33ad8350800000000000000
-      internalID: 6020647751973351376
+      spriteID: 7e67e9ca389f925b0800000000000000
+      internalID: -5392504734867360025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_3
+      name: Soldier Jump_5
       rect:
         serializedVersion: 2
-        x: 354
-        y: 589
-        width: 74
-        height: 118
+        x: 1026
+        y: 2052
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e97d5c3fa360a58a0800000000000000
-      internalID: -6315728677166000226
+      spriteID: b4e9f9ef33ed8f1a0800000000000000
+      internalID: -6775421324482339253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_4
+      name: Soldier Jump_6
       rect:
         serializedVersion: 2
-        x: 620
-        y: 589
-        width: 75
-        height: 118
+        x: 2052
+        y: 2052
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 002ad6d1cfc33c890800000000000000
-      internalID: -7439035105962778112
+      spriteID: 3dcad5fac288d5ca0800000000000000
+      internalID: -6026511000849765165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_5
+      name: Soldier Jump_7
       rect:
         serializedVersion: 2
-        x: 886
-        y: 589
-        width: 75
-        height: 118
+        x: 3078
+        y: 2052
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dd61d1d6df5b15f0800000000000000
-      internalID: -784928333798216235
+      spriteID: 9e26176ed9b4e5070800000000000000
+      internalID: 8096992321606869737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_6
+      name: Soldier Jump_8
       rect:
         serializedVersion: 2
-        x: 88
-        y: 323
-        width: 74
-        height: 118
+        x: 0
+        y: 1026
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa801b760666c6c60800000000000000
-      internalID: 7812732017823516842
+      spriteID: d5b4ecd06bbbf0370800000000000000
+      internalID: 8291051829602437981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_7
+      name: Soldier Jump_9
       rect:
         serializedVersion: 2
-        x: 353
-        y: 323
-        width: 75
-        height: 118
+        x: 1026
+        y: 1026
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e206eb78c0cd569b0800000000000000
-      internalID: -5087418257669988306
+      spriteID: 838c19f6b1886cb40800000000000000
+      internalID: 5460201249650624568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_8
+      name: Soldier Jump_10
       rect:
         serializedVersion: 2
-        x: 619
-        y: 323
-        width: 74
-        height: 118
+        x: 2052
+        y: 1026
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42b72e989e0c56420800000000000000
-      internalID: 2622714467286416164
+      spriteID: d56f8d902e987d0a0800000000000000
+      internalID: -6856860303727462819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_9
+      name: Soldier Jump_11
       rect:
         serializedVersion: 2
-        x: 885
-        y: 322
-        width: 74
-        height: 119
+        x: 3078
+        y: 1026
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588f3a93519e2e430800000000000000
-      internalID: 3810864512079493253
+      spriteID: 21a824d9729843dd0800000000000000
+      internalID: -2507228289303410158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_10
+      name: Soldier Jump_12
       rect:
         serializedVersion: 2
-        x: 86
-        y: 56
-        width: 75
-        height: 119
+        x: 0
+        y: 0
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1bf6208ce5b27720800000000000000
-      internalID: 2842534342191151901
+      spriteID: 322100a99a193d2c0800000000000000
+      internalID: -4408019452646387165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_11
+      name: Soldier Jump_13
       rect:
         serializedVersion: 2
-        x: 352
-        y: 55
-        width: 74
-        height: 120
+        x: 1026
+        y: 0
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61202a95622036890800000000000000
-      internalID: -7466121393514348010
+      spriteID: 4006d240cbeb2cf90800000000000000
+      internalID: -6934770761463930876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_12
+      name: Soldier Jump_14
       rect:
         serializedVersion: 2
-        x: 618
-        y: 55
-        width: 74
-        height: 120
+        x: 2052
+        y: 0
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83a679cd8e4a684a0800000000000000
-      internalID: -6591399684569863624
+      spriteID: b00ebb13c47087920800000000000000
+      internalID: 2988146376593629195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk Spritesheet 2_13
+      name: Soldier Jump_15
       rect:
         serializedVersion: 2
-        x: 884
-        y: 56
-        width: 75
-        height: 119
+        x: 3078
+        y: 0
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c607dd03e4614720800000000000000
-      internalID: 2828652967317931721
+      spriteID: 7cda1657c54d54b10800000000000000
+      internalID: 1965210305988505031
       vertices: []
       indices: 
       edges: []
