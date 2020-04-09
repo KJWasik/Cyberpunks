@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 615077908}
   - component: {fileID: 615077910}
   m_Layer: 5
-  m_Name: Police Woman Idle
+  m_Name: Police Woman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -491,13 +491,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 3194786230396457157, guid: 258b946ce09a0c24d8b3ae9af55a107b,
+  m_Sprite: {fileID: 9143379239209447028, guid: a81926e6a204cd94296eeb4c62589f40,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.06, y: 6.12}
+  m_Size: {x: 10.24, y: 10.24}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -519,7 +519,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.33, y: -0.09}
+  m_AnchoredPosition: {x: -0.33, y: -0.6}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &615077910
@@ -532,7 +532,7 @@ Animator:
   m_GameObject: {fileID: 615077907}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 55d42d15818b8d6499cf6992bf91fb02, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3e7a9d2a290b30c40b7d045d211d98f3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

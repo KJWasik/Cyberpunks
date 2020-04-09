@@ -1,91 +1,55 @@
 fileFormatVersion: 2
-guid: 258b946ce09a0c24d8b3ae9af55a107b
+guid: dedf284b4ed32c0408eab32efd9159a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 829673283833226427
-    second: Police Woman Idle_0
+      213: -5815800504881145644
+    second: SlashMeleeGrin_0
   - first:
-      213: -4101159317324508749
-    second: Police Woman Idle_1
+      213: 8011767416513949990
+    second: SlashMeleeGrin_1
   - first:
-      213: 3194786230396457157
-    second: Police Woman Idle_2
+      213: 8798335587443743285
+    second: SlashMeleeGrin_2
   - first:
-      213: 6571717445439598352
-    second: Police Woman Idle_3
+      213: -9090194366406807705
+    second: SlashMeleeGrin_3
   - first:
-      213: -6799368895736855753
-    second: Police Woman Idle_4
+      213: -2162919582795503784
+    second: SlashMeleeGrin_4
   - first:
-      213: 8851529712266012184
-    second: Police Woman Idle_5
+      213: 944483210249867875
+    second: SlashMeleeGrin_5
   - first:
-      213: 2376899550222377299
-    second: Police Woman Idle_6
+      213: 2832232615671970248
+    second: SlashMeleeGrin_6
   - first:
-      213: 7486516684122497168
-    second: Police Woman Idle_7
+      213: -2013650504948170809
+    second: SlashMeleeGrin_7
   - first:
-      213: 6422584200565742303
-    second: Police Woman Idle_8
+      213: -3265778441799980382
+    second: SlashMeleeGrin_8
   - first:
-      213: -4211149411596055795
-    second: Police Woman Idle_9
+      213: -1389692231210980369
+    second: SlashMeleeGrin_9
   - first:
-      213: -6755162224693407472
-    second: Police Woman Idle_10
+      213: 395513137423783864
+    second: SlashMeleeGrin_10
   - first:
-      213: 7783789416492781828
-    second: Police Woman Idle_11
+      213: 5200157641522235492
+    second: SlashMeleeGrin_11
   - first:
-      213: 7711811607344902859
-    second: Police Woman Idle_12
+      213: 4934414120843866341
+    second: SlashMeleeGrin_12
   - first:
-      213: 6079158037795962411
-    second: Police Woman Idle_13
+      213: -1159466534966265298
+    second: SlashMeleeGrin_13
   - first:
-      213: -5015291026248577012
-    second: Police Woman Idle_14
+      213: -1242280789725862231
+    second: SlashMeleeGrin_14
   - first:
-      213: -8240392123131661845
-    second: Police Woman Idle_15
-  - first:
-      213: 5341574800194520251
-    second: Police Woman Idle_2
-  - first:
-      213: -525540648881214733
-    second: Police Woman Idle_3
-  - first:
-      213: 5410813544287214044
-    second: Police Woman Idle_4
-  - first:
-      213: -5066698349344188811
-    second: Police Woman Idle_5
-  - first:
-      213: 6414284401545673872
-    second: Police Woman Idle_6
-  - first:
-      213: 3584324521550705013
-    second: Police Woman Idle_7
-  - first:
-      213: -4180901581044747312
-    second: Police Woman Idle_8
-  - first:
-      213: -938063221281630185
-    second: Police Woman Idle_9
-  - first:
-      213: -1846051171354104653
-    second: Police Woman Idle_10
-  - first:
-      213: -4809623950446347863
-    second: Police Woman Idle_11
-  - first:
-      213: -2858173741952394870
-    second: Police Woman Idle_12
-  - first:
-      213: 6028248880587562141
-    second: Police Woman Idle_13
+      213: -593047277513614617
+    second: SlashMeleeGrin_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -144,7 +108,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -156,7 +120,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -168,7 +132,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -180,7 +144,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -194,253 +158,337 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Police Woman Idle_2
+      name: SlashMeleeGrin_0
       rect:
         serializedVersion: 2
-        x: 2363
-        y: 3347
-        width: 406
-        height: 611
+        x: 0
+        y: 3078
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb4c5cadaf5112a40800000000000000
-      internalID: 5341574800194520251
+      spriteID: 4d8950611402a4fa0800000000000000
+      internalID: -5815800504881145644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Police Woman Idle_3
+      name: SlashMeleeGrin_1
       rect:
         serializedVersion: 2
-        x: 3389
-        y: 3347
-        width: 406
-        height: 611
+        x: 1026
+        y: 3078
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fa28647097e4b8f0800000000000000
-      internalID: -525540648881214733
+      spriteID: 621fc5464048f2f60800000000000000
+      internalID: 8011767416513949990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Police Woman Idle_4
+      name: SlashMeleeGrin_2
       rect:
         serializedVersion: 2
-        x: 311
-        y: 2321
-        width: 406
-        height: 611
+        x: 2052
+        y: 3078
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd99c153042171b40800000000000000
-      internalID: 5410813544287214044
+      spriteID: 53a1348e997f91a70800000000000000
+      internalID: 8798335587443743285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Police Woman Idle_5
+      name: SlashMeleeGrin_3
       rect:
         serializedVersion: 2
-        x: 1337
-        y: 2321
-        width: 406
-        height: 610
+        x: 3078
+        y: 3078
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 576184f12b87fa9b0800000000000000
-      internalID: -5066698349344188811
+      spriteID: 76fa01bb26429d180800000000000000
+      internalID: -9090194366406807705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Police Woman Idle_6
+      name: SlashMeleeGrin_4
       rect:
         serializedVersion: 2
-        x: 2363
-        y: 2321
-        width: 406
-        height: 610
+        x: 0
+        y: 2052
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09c757acdad140950800000000000000
-      internalID: 6414284401545673872
+      spriteID: 857ecbd5914cbf1e0800000000000000
+      internalID: -2162919582795503784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Police Woman Idle_7
+      name: SlashMeleeGrin_5
       rect:
         serializedVersion: 2
-        x: 3389
-        y: 2321
-        width: 406
-        height: 610
+        x: 1026
+        y: 2052
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57170ca69241eb130800000000000000
-      internalID: 3584324521550705013
+      spriteID: 3629343c97a7b1d00800000000000000
+      internalID: 944483210249867875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Police Woman Idle_8
+      name: SlashMeleeGrin_6
       rect:
         serializedVersion: 2
-        x: 311
-        y: 1295
-        width: 406
-        height: 610
+        x: 2052
+        y: 2052
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d375f4d9247af5c0800000000000000
-      internalID: -4180901581044747312
+      spriteID: 8c93762ee8c1e4720800000000000000
+      internalID: 2832232615671970248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Police Woman Idle_9
+      name: SlashMeleeGrin_7
       rect:
         serializedVersion: 2
-        x: 1337
-        y: 1295
-        width: 406
-        height: 611
+        x: 3078
+        y: 2052
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71856a668745bf2f0800000000000000
-      internalID: -938063221281630185
+      spriteID: 7cf37c6d8831e04e0800000000000000
+      internalID: -2013650504948170809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Police Woman Idle_10
+      name: SlashMeleeGrin_8
       rect:
         serializedVersion: 2
-        x: 2363
-        y: 1295
-        width: 406
-        height: 611
+        x: 0
+        y: 1026
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bcae3e8d328166e0800000000000000
-      internalID: -1846051171354104653
+      spriteID: 2aa226d5fcf9da2d0800000000000000
+      internalID: -3265778441799980382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Police Woman Idle_11
+      name: SlashMeleeGrin_9
       rect:
         serializedVersion: 2
-        x: 3389
-        y: 1295
-        width: 406
-        height: 611
+        x: 1026
+        y: 1026
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a93f62ef78c04db0800000000000000
-      internalID: -4809623950446347863
+      spriteID: febac835742d6bce0800000000000000
+      internalID: -1389692231210980369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Police Woman Idle_12
+      name: SlashMeleeGrin_10
       rect:
         serializedVersion: 2
-        x: 311
-        y: 269
-        width: 406
-        height: 611
+        x: 2052
+        y: 1026
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a89149cff1ab558d0800000000000000
-      internalID: -2858173741952394870
+      spriteID: 8b7152c5a152d7500800000000000000
+      internalID: 395513137423783864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Police Woman Idle_13
+      name: SlashMeleeGrin_11
       rect:
         serializedVersion: 2
-        x: 1337
-        y: 269
-        width: 406
-        height: 611
+        x: 3078
+        y: 1026
+        width: 1026
+        height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9c5119fa64a8a350800000000000000
-      internalID: 6028248880587562141
+      spriteID: 46847f6c2dbaa2840800000000000000
+      internalID: 5200157641522235492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlashMeleeGrin_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1026
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0f19fcf7f8a7440800000000000000
+      internalID: 4934414120843866341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlashMeleeGrin_13
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 0
+        width: 1026
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2af16e545fb8efe0800000000000000
+      internalID: -1159466534966265298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlashMeleeGrin_14
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 0
+        width: 1026
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a62911243882cee0800000000000000
+      internalID: -1242280789725862231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlashMeleeGrin_15
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 0
+        width: 1026
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ead9c8a4a215c7f0800000000000000
+      internalID: -593047277513614617
       vertices: []
       indices: 
       edges: []
