@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7305585912062362995}
   - component: {fileID: 7305585912062362988}
   - component: {fileID: 7305585912062362989}
+  - component: {fileID: 876302996970596447}
   m_Layer: 5
   m_Name: Police Man (Gun)
   m_TagString: Untagged
@@ -107,3 +108,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &876302996970596447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7305585912062362990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31abcf59bec116a4e875a6585724606b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  donutCost: 100
