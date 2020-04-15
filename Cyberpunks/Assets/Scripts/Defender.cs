@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Defender : MonoBehaviour
 {
-    [SerializeField] int donutCost = 100;
+    [SerializeField] int donutCost = 5;
 
     // Start is called before the first frame update
     void Start()
@@ -16,5 +16,15 @@ public class Defender : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void AddDonuts(int amount)
+    {
+        FindObjectOfType<DonutDisplay>().AddDonuts(amount);
+    }
+
+    public int GetDonutCost()
+    {
+        return donutCost;
     }
 }

@@ -3,197 +3,53 @@ guid: 1171359caa67f8245952a98878f0c362
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1509900456598654893
-    second: Soldier Walk_0
+      213: 4035959289877228764
+    second: Walk_0
   - first:
-      213: -7627116028259175834
-    second: Soldier Walk_1
+      213: -982904232830982447
+    second: Walk_1
   - first:
-      213: 923944319229971938
-    second: Soldier Walk_2
+      213: -350908408369970039
+    second: Walk_2
   - first:
-      213: 8636782861530324001
-    second: Soldier Walk_3
+      213: -5409570386352685021
+    second: Walk_3
   - first:
-      213: -3634713332780727504
-    second: Soldier Walk_4
+      213: 1553940418269799609
+    second: Walk_4
   - first:
-      213: 4553708143521044716
-    second: Soldier Walk_5
+      213: 2416434504916517810
+    second: Walk_5
   - first:
-      213: 6748823916399212986
-    second: Soldier Walk_6
+      213: -6428935122508569504
+    second: Walk_6
   - first:
-      213: 5131531486515433074
-    second: Soldier Walk_7
+      213: 7144598999076838305
+    second: Walk_7
   - first:
-      213: 2236375033171394421
-    second: Soldier Walk_8
+      213: 7500509103958437945
+    second: Walk_8
   - first:
-      213: -1503131351160038498
-    second: Soldier Walk_9
+      213: 1008816216748069464
+    second: Walk_9
   - first:
-      213: 5368461811567824041
-    second: Soldier Walk_10
+      213: 11406907883527339
+    second: Walk_10
   - first:
-      213: -4990768909843136141
-    second: Soldier Walk_11
+      213: 8030128826893041618
+    second: Walk_11
   - first:
-      213: 187523615404304250
-    second: Soldier Walk_12
+      213: 2315132830120601726
+    second: Walk_12
   - first:
-      213: -5733726731787100081
-    second: Soldier Walk_13
+      213: 7929438602540414932
+    second: Walk_13
   - first:
-      213: 7640582662824728726
-    second: Soldier Walk_14
+      213: 5250438378151091228
+    second: Walk_14
   - first:
-      213: -8211209522880005583
-    second: Soldier Walk_15
-  - first:
-      213: -8830115140006334258
-    second: Soldier Walk_16
-  - first:
-      213: 5995591532581056938
-    second: Soldier Walk_17
-  - first:
-      213: 4780217044274535489
-    second: Soldier Walk_18
-  - first:
-      213: 3481617798949007453
-    second: Soldier Walk_19
-  - first:
-      213: 3424115900589906007
-    second: Soldier Walk_20
-  - first:
-      213: -3310749264714085117
-    second: Soldier Walk_21
-  - first:
-      213: 1273707920074392963
-    second: Soldier Walk_22
-  - first:
-      213: 1640688611264857252
-    second: Soldier Walk_23
-  - first:
-      213: 9178440960945831935
-    second: Soldier Walk_24
-  - first:
-      213: -3029868483656698295
-    second: Soldier Walk_25
-  - first:
-      213: -4556733287732302567
-    second: Soldier Walk_26
-  - first:
-      213: 8598031162022306365
-    second: Soldier Walk_27
-  - first:
-      213: 6012164972279668433
-    second: Soldier Walk_28
-  - first:
-      213: -3333604772823502017
-    second: Soldier Walk_29
-  - first:
-      213: -2335233497541872896
-    second: Soldier Walk_30
-  - first:
-      213: -1525404879038765156
-    second: Soldier Walk_31
-  - first:
-      213: -8192138962130690931
-    second: Soldier Walk_32
-  - first:
-      213: -5171932896549846597
-    second: Soldier Walk_33
-  - first:
-      213: -5672714758477445313
-    second: Soldier Walk_34
-  - first:
-      213: -6016203581460635604
-    second: Soldier Walk_35
-  - first:
-      213: 858581818360985744
-    second: Soldier Walk_36
-  - first:
-      213: 4977521930517258876
-    second: Soldier Walk_37
-  - first:
-      213: 5310368465581131065
-    second: Soldier Walk_38
-  - first:
-      213: 6358254572028477993
-    second: Soldier Walk_39
-  - first:
-      213: 693020886123320293
-    second: Soldier Walk_40
-  - first:
-      213: -722957603623627805
-    second: Soldier Walk_41
-  - first:
-      213: 703164593932368293
-    second: Soldier Walk_42
-  - first:
-      213: 4460088835793967321
-    second: Soldier Walk_43
-  - first:
-      213: -4545937243946914568
-    second: Soldier Walk_44
-  - first:
-      213: 1500876511143327149
-    second: Soldier Walk_45
-  - first:
-      213: 9138497117896575576
-    second: Soldier Walk_46
-  - first:
-      213: -5887115940872366606
-    second: Soldier Walk_47
-  - first:
-      213: -1699228915157154065
-    second: Soldier Walk_48
-  - first:
-      213: 8395120767899004464
-    second: Soldier Walk_49
-  - first:
-      213: -6790869724463484603
-    second: Soldier Walk_50
-  - first:
-      213: -163888550654784632
-    second: Soldier Walk_51
-  - first:
-      213: -1196334007240501938
-    second: Soldier Walk_52
-  - first:
-      213: -8236710839077077836
-    second: Soldier Walk_53
-  - first:
-      213: 5010736448703916784
-    second: Soldier Walk_54
-  - first:
-      213: 5991167178730031577
-    second: Soldier Walk_55
-  - first:
-      213: 9216301584361140618
-    second: Soldier Walk_56
-  - first:
-      213: 5562184122741251010
-    second: Soldier Walk_57
-  - first:
-      213: -187387280310260658
-    second: Soldier Walk_58
-  - first:
-      213: 9162971266948125976
-    second: Soldier Walk_59
-  - first:
-      213: 4077430720567447506
-    second: Soldier Walk_60
-  - first:
-      213: 8557071441853108605
-    second: Soldier Walk_61
-  - first:
-      213: 3411798026434874403
-    second: Soldier Walk_62
-  - first:
-      213: -7678289599601032542
-    second: Soldier Walk_63
+      213: -1258472680374559522
+    second: Walk_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -302,7 +158,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soldier Walk_2
+      name: Walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3078
+        width: 1026
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdce119379b920830800000000000000
+      internalID: 4035959289877228764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_1
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 3078
+        width: 1026
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6a1e1dec50c52f0800000000000000
+      internalID: -982904232830982447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_2
       rect:
         serializedVersion: 2
         x: 2052
@@ -310,20 +208,20 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ed41fb867282dc00800000000000000
-      internalID: 923944319229971938
+      spriteID: 984096a69a2512bf0800000000000000
+      internalID: -350908408369970039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk_3
+      name: Walk_3
       rect:
         serializedVersion: 2
         x: 3078
@@ -331,20 +229,20 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12c52bfb0440cd770800000000000000
-      internalID: 8636782861530324001
+      spriteID: 320c9fd05685de4b0800000000000000
+      internalID: -5409570386352685021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk_4
+      name: Walk_4
       rect:
         serializedVersion: 2
         x: 0
@@ -352,20 +250,20 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0338a3b3b77ee8dc0800000000000000
-      internalID: -3634713332780727504
+      spriteID: 9b4e719c394b09510800000000000000
+      internalID: 1553940418269799609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk_5
+      name: Walk_5
       rect:
         serializedVersion: 2
         x: 1026
@@ -373,20 +271,20 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce810611e65023f30800000000000000
-      internalID: 4553708143521044716
+      spriteID: 2b3cb802166e88120800000000000000
+      internalID: 2416434504916517810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk_6
+      name: Walk_6
       rect:
         serializedVersion: 2
         x: 2052
@@ -394,20 +292,20 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab9b2ac5893a8ad50800000000000000
-      internalID: 6748823916399212986
+      spriteID: 06428da6195d7c6a0800000000000000
+      internalID: -6428935122508569504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk_7
+      name: Walk_7
       rect:
         serializedVersion: 2
         x: 3078
@@ -415,20 +313,20 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27e0c7fe2bcd63740800000000000000
-      internalID: 5131531486515433074
+      spriteID: 1ab169a9fe6b62360800000000000000
+      internalID: 7144598999076838305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk_8
+      name: Walk_8
       rect:
         serializedVersion: 2
         x: 0
@@ -436,20 +334,20 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57fbbbc6e33390f10800000000000000
-      internalID: 2236375033171394421
+      spriteID: 930b6086a49271860800000000000000
+      internalID: 7500509103958437945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk_9
+      name: Walk_9
       rect:
         serializedVersion: 2
         x: 1026
@@ -457,20 +355,20 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9b5a53000ec32be0800000000000000
-      internalID: -1503131351160038498
+      spriteID: 8521ce21109000e00800000000000000
+      internalID: 1008816216748069464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk_10
+      name: Walk_10
       rect:
         serializedVersion: 2
         x: 2052
@@ -478,20 +376,20 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ac00c4039b908a40800000000000000
-      internalID: 5368461811567824041
+      spriteID: bac1264b586882000800000000000000
+      internalID: 11406907883527339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk_11
+      name: Walk_11
       rect:
         serializedVersion: 2
         x: 3078
@@ -499,20 +397,20 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3718cb46e1a3dbab0800000000000000
-      internalID: -4990768909843136141
+      spriteID: 2df75936f9fb07f60800000000000000
+      internalID: 8030128826893041618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk_12
+      name: Walk_12
       rect:
         serializedVersion: 2
         x: 0
@@ -520,20 +418,20 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a77ab231cb73a9200800000000000000
-      internalID: 187523615404304250
+      spriteID: e78ee2bfa01012020800000000000000
+      internalID: 2315132830120601726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk_13
+      name: Walk_13
       rect:
         serializedVersion: 2
         x: 1026
@@ -541,20 +439,20 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f402ba08ae5bd60b0800000000000000
-      internalID: -5733726731787100081
+      spriteID: 4d7f0b4a5660b0e60800000000000000
+      internalID: 7929438602540414932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk_14
+      name: Walk_14
       rect:
         serializedVersion: 2
         x: 2052
@@ -562,20 +460,20 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6981da6437dc80a60800000000000000
-      internalID: 7640582662824728726
+      spriteID: c1c16cc03ed4dd840800000000000000
+      internalID: 5250438378151091228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier Walk_15
+      name: Walk_15
       rect:
         serializedVersion: 2
         x: 3078
@@ -583,14 +481,14 @@ TextureImporter:
         width: 1026
         height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13abe6c917ceb0e80800000000000000
-      internalID: -8211209522880005583
+      spriteID: edc9dbec3c1098ee0800000000000000
+      internalID: -1258472680374559522
       vertices: []
       indices: 
       edges: []

@@ -65,7 +65,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31abcf59bec116a4e875a6585724606b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  donutCost: 100
+  donutCost: 5
 --- !u!1 &1172971628148094237
 GameObject:
   m_ObjectHideFlags: 0

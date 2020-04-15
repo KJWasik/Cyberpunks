@@ -25,6 +25,11 @@ public class DonutDisplay : MonoBehaviour
         donutText.text = donuts.ToString();
     }
 
+    public bool HaveEnoughDonuts(int amount)
+    {
+        return donuts >= amount;
+    }
+
     public void AddDonuts(int amount)
     {
         donuts += amount;
