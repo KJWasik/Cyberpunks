@@ -6,6 +6,7 @@ public class Shooter : MonoBehaviour
 {
     [SerializeField] GameObject projectile;
     [SerializeField] GameObject weapon;
+    [SerializeField] GameObject shootVFX;
     Animator animator;
 
     AttackerSpawner myLaneSpawner;
@@ -32,7 +33,17 @@ public class Shooter : MonoBehaviour
 
     public void Fire()
     {
+        TriggerShootVFX();
         Instantiate(projectile, weapon.transform.position, weapon.transform.rotation);
+    }
+
+    private void TriggerShootVFX()
+    {
+        if (shootVFX)
+        {
+            GameObject deathVFXObject = Instantiate(shootVFX, weapon.transform.position, weapon.transform.rotation);
+            Destroy(deathVFXObject, 1f);
+        }
     }
 
     private void SetLaneSpawner()
