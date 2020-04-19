@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 1212745996472745213}
   - component: {fileID: 1212745996472745212}
   - component: {fileID: 1212745996472745187}
+  - component: {fileID: 2250400956780563807}
   m_Layer: 0
   m_Name: Police Woman (Shield)
   m_TagString: Untagged
@@ -174,3 +175,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2250400956780563807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212745996472745185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109b6b887d08e6844ae7ad703749723e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 300
+  deathVFX: {fileID: 8689930597795280961, guid: ed9e86437dbc7504da4df63ed11f32fe,
+    type: 3}

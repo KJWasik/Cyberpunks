@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: -8571469546630400529}
   - component: {fileID: 1275006244267655420}
   - component: {fileID: 8701760495159129635}
+  - component: {fileID: 4933064898761455106}
   m_Layer: 0
   m_Name: Soldier (Knife)
   m_TagString: Untagged
@@ -159,10 +160,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.004880905, y: 0.05844474}
+  m_Offset: {x: 0.10095239, y: 0.07764983}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -173,7 +174,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.79239273, y: 1.2306094}
+  m_Size: {x: 0.60024977, y: 0.88491774}
   m_EdgeRadius: 0
 --- !u!50 &1275006244267655420
 Rigidbody2D:
@@ -211,3 +212,15 @@ MonoBehaviour:
   health: 100
   deathVFX: {fileID: 8689930597795280961, guid: ed9e86437dbc7504da4df63ed11f32fe,
     type: 3}
+--- !u!114 &4933064898761455106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8389141766167432300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5a26e5ff8751b4ea46b1e4defe99fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

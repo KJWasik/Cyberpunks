@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 159436719}
   - component: {fileID: 159436720}
   - component: {fileID: 8412634678716796446}
+  - component: {fileID: 674830459804644886}
   m_Layer: 0
   m_Name: Police Elf (Bow)
   m_TagString: Untagged
@@ -131,7 +132,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.04916361, y: 0.020637453}
+  m_Offset: {x: 0.04916361, y: 0.032526493}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -142,8 +143,23 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.99674886, y: 0.9920496}
+  m_Size: {x: 0.99674886, y: 0.9682715}
   m_EdgeRadius: 0
+--- !u!114 &674830459804644886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606538700076852901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109b6b887d08e6844ae7ad703749723e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathVFX: {fileID: 8689930597795280961, guid: ed9e86437dbc7504da4df63ed11f32fe,
+    type: 3}
 --- !u!1 &4000467771341954057
 GameObject:
   m_ObjectHideFlags: 0

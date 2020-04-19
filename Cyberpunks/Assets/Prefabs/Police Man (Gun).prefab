@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 6351510967731495493}
   - component: {fileID: 6351510967731495492}
   - component: {fileID: 6351510967731495512}
+  - component: {fileID: 4685722900553289272}
   m_Layer: 0
   m_Name: Police Man (Gun)
   m_TagString: Untagged
@@ -191,6 +192,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4685722900553289272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6351510967731495490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109b6b887d08e6844ae7ad703749723e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathVFX: {fileID: 8689930597795280961, guid: ed9e86437dbc7504da4df63ed11f32fe,
+    type: 3}
 --- !u!1 &6351510968118094309
 GameObject:
   m_ObjectHideFlags: 0
