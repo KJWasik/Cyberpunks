@@ -20,6 +20,12 @@ public class LevelLoader : MonoBehaviour
         }
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
     // Showing Loading Screen for 3 seconds
     IEnumerator WaitAndLoad()
     {
@@ -32,11 +38,8 @@ public class LevelLoader : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
-    public
-
-    // Update is called once per frame
-    void Update()
+    public void LoadGameOver()
     {
-        
+        SceneManager.LoadScene("Game Over");
     }
 }
