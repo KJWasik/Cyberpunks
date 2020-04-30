@@ -5,13 +5,15 @@ using TMPro;
 
 public class LivesDisplay : MonoBehaviour
 {
-    [SerializeField] int lives = 5;
+    [SerializeField] float baseLives = 3;
     [SerializeField] int damage = 1;
     [SerializeField] TextMeshProUGUI livesText;
+    float lives;
 
     // Start is called before the first frame update
     void Start()
     {
+        lives = baseLives - PlayerPrefsController.GetDifficulty();
         livesText = GetComponent<TextMeshProUGUI>();
         UpdateDisplay();
     }
