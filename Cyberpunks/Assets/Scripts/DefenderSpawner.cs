@@ -20,7 +20,7 @@ public class DefenderSpawner : MonoBehaviour
 
     }
 
-    // Sorting hierarchy
+    // Instantiating defenders as child objects
     private void CreateDefenderParent()
     {
         defenderParent = GameObject.Find(DEFENDER_PARENT_NAME);
@@ -71,6 +71,6 @@ public class DefenderSpawner : MonoBehaviour
     private void SpawnDefender(Vector2 positionToSpawn)
     {
         Defender newDefender = Instantiate(defender, positionToSpawn, Quaternion.identity) as Defender;
-        newDefender.transform.parent = defenderParent.transform;
+        newDefender.transform.parent = defenderParent.transform; // Adding to a parent object
     }
 }

@@ -33,7 +33,7 @@ public class Shooter : MonoBehaviour
         }
     }
 
-    // Sorting hierarchy
+    // Instantiating projectiles as child objects
     private void CreateProjectileParent()
     {
         projectileParent = GameObject.Find(PROJECTILE_PARENT_NAME);
@@ -47,7 +47,7 @@ public class Shooter : MonoBehaviour
     {
         TriggerShootVFX();
         GameObject newProjectile = Instantiate(projectile, weapon.transform.position, weapon.transform.rotation) as GameObject;
-        newProjectile.transform.parent = projectileParent.transform;
+        newProjectile.transform.parent = projectileParent.transform; // Adding to a parent object
     }
 
     private void TriggerShootVFX()

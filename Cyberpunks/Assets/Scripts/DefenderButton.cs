@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DefenderButton : MonoBehaviour
 {
@@ -10,13 +11,26 @@ public class DefenderButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        LabelButtonWithCost();
     }
 
     // Update is called once per frame
     void Update()
     {
 
+    }
+
+    private void LabelButtonWithCost()
+    {
+        TextMeshProUGUI costText = GetComponentInChildren<TextMeshProUGUI>();
+        if (!costText)
+        {
+            Debug.LogError(name + " has no cost text.");
+        }
+        else
+        {
+            costText.text = defenderPrefab.GetDonutCost().ToString();
+        }
     }
 
     private void OnMouseDown()
