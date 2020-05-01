@@ -1,16 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] float health = 100f;
+    [SerializeField] float startHealth = 100f;
     [SerializeField] GameObject deathVFX;
+    public Image healthBar;
+    private float health;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        health = startHealth;
     }
 
     // Update is called once per frame
@@ -22,6 +25,8 @@ public class Health : MonoBehaviour
     public void DealDamage(float damage)
     {
         health -= damage;
+        healthBar.fillAmount = health / startHealth;
+
         if (health <= 0)
         {
             TriggerDeathVFX();
