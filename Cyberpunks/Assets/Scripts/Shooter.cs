@@ -8,7 +8,8 @@ public class Shooter : MonoBehaviour
     [SerializeField] GameObject weapon;
     [SerializeField] GameObject shootVFX;
     Animator animator;
-
+    GameObject projectileParent;
+    const string PROJECTILE_PARENT_NAME = "Projectiles";
     AttackerSpawner myLaneSpawner;
 
     // Start is called before the first frame update
@@ -16,6 +17,7 @@ public class Shooter : MonoBehaviour
     {
         SetLaneSpawner();
         animator = GetComponent<Animator>();
+        CreateProjectileParent();
     }
 
     // Update is called once per frame
@@ -31,10 +33,21 @@ public class Shooter : MonoBehaviour
         }
     }
 
+    // Sorting hierarchy
+    private void CreateProjectileParent()
+    {
+        projectileParent = GameObject.Find(PROJECTILE_PARENT_NAME);
+        if (!projectileParent)
+        {
+            projectileParent = new GameObject(PROJECTILE_PARENT_NAME);
+        }
+    }
+
     public void Fire()
     {
         TriggerShootVFX();
-        Instantiate(projectile, weapon.transform.position, weapon.transform.rotation);
+        GameObject newProjectile = Instantiate(projectile, weapon.transform.position, weapon.transform.rotation) as GameObject;
+        newProjectile.transform.parent = projectileParent.transform;
     }
 
     private void TriggerShootVFX()
