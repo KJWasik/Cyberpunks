@@ -1697,6 +1697,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Core Game Area
       objectReference: {fileID: 0}
+    - target: {fileID: 5917290840942976967, guid: 6e0fa15fc72ad024ea87144ed6a71644,
+        type: 3}
+      propertyPath: spawnAnimation
+      value: 
+      objectReference: {fileID: 1564971203014091643, guid: cb14af06ab9c9044499cf4e775c1399f,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e0fa15fc72ad024ea87144ed6a71644, type: 3}
 --- !u!1001 &7121507293934302585

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour
 {
+    [SerializeField] GameObject spawnAnimation;
+    float delayInSeconds = 0.2f;
     Defender defender;
     GameObject defenderParent;
     const string DEFENDER_PARENT_NAME = "Defenders";
@@ -47,7 +49,7 @@ public class DefenderSpawner : MonoBehaviour
 
         if (donutDisplay.HaveEnoughDonuts(defenderCost))
         {
-            SpawnDefender(gridPosition);
+            StartCoroutine(WaitAndSpawn(gridPosition));
             donutDisplay.SpendDonuts(defenderCost);
         }
     }
@@ -72,5 +74,21 @@ public class DefenderSpawner : MonoBehaviour
     {
         Defender newDefender = Instantiate(defender, positionToSpawn, Quaternion.identity) as Defender;
         newDefender.transform.parent = defenderParent.transform; // Adding to a parent object
+    }
+
+    IEnumerator WaitAndSpawn(Vector2 positionToSpawn)
+    {
+        TriggerSpawnAnimation(positionToSpawn);
+        yield return new WaitForSeconds(delayInSeconds);
+        SpawnDefender(positionToSpawn);
+    }
+
+    private void TriggerSpawnAnimation(Vector2 positionToSpawn)
+    {
+        if (spawnAnimation)
+        {
+            GameObject newSpawnAnimation = Instantiate(spawnAnimation, positionToSpawn, Quaternion.identity);
+            Destroy(newSpawnAnimation, 0.4f);
+        }
     }
 }
