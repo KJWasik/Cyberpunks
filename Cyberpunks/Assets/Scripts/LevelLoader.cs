@@ -6,12 +6,17 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
     [SerializeField] float delayInSeconds = 3f;
-
     int currentSceneIndex;
+    SceneFader sceneFader;
 
+    public string menuName = "Menu Screen";
+    public string level1Name = "Level 1";
+    public string optionsName = "Options Screen";
+    public string gameOverName = "Game Over Screen";
     // Start is called before the first frame update
     void Start()
     {
+        sceneFader = FindObjectOfType<SceneFader>();
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 
         if (currentSceneIndex == 0)
@@ -36,33 +41,39 @@ public class LevelLoader : MonoBehaviour
     public void LoadMainMenu()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Start Screen");
+        sceneFader.FadeTo(menuName);
+        //SceneManager.LoadScene("Start Screen");
     }
 
     public void LoadOptionsScene()
     {
-        SceneManager.LoadScene("Options Screen");
+        sceneFader.FadeTo(optionsName);
+        //SceneManager.LoadScene("Options Screen");
     }
 
     public void RestartScene()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(currentSceneIndex);
+        sceneFader.FadeTo(SceneManager.GetActiveScene().name);
+        //SceneManager.LoadScene(currentSceneIndex);
     }
 
     public void LoadNextScene()
     {
-        SceneManager.LoadScene(currentSceneIndex + 1);
+        sceneFader.FadeTo(currentSceneIndex + 1);
+        //SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
     public void LoadGameOver()
     {
-        SceneManager.LoadScene("Game Over");
+        sceneFader.FadeTo(gameOverName);
+        //SceneManager.LoadScene("Game Over");
     }
 
     public void PlayAgain()
     {
-        SceneManager.LoadScene("Level 1");
+        sceneFader.FadeTo(level1Name);
+        //SceneManager.LoadScene("Level 1");
     }
 
     public void QuitGame()
