@@ -46,6 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winScreen: {fileID: 0}
   loseScreen: {fileID: 0}
+  pauseScreen: {fileID: 0}
   waitToLoad: 3
 --- !u!114 &1305830974
 MonoBehaviour:

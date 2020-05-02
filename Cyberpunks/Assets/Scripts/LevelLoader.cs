@@ -60,6 +60,11 @@ public class LevelLoader : MonoBehaviour
         SceneManager.LoadScene("Game Over");
     }
 
+    public void PlayAgain()
+    {
+        SceneManager.LoadScene("Level 1");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
