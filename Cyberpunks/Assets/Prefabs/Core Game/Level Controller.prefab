@@ -61,3 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayInSeconds: 3
+  menuName: Menu Screen
+  level1Name: Level 1
+  optionsName: Options Screen
+  gameOverName: Game Over Screen
