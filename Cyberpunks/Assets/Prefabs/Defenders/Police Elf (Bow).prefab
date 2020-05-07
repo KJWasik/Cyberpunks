@@ -291,10 +291,10 @@ GameObject:
   m_Component:
   - component: {fileID: 606538700076852898}
   - component: {fileID: 5968403239200229280}
-  - component: {fileID: 159436719}
   - component: {fileID: 159436720}
   - component: {fileID: 8412634678716796446}
   - component: {fileID: 674830459804644886}
+  - component: {fileID: 758802427}
   m_Layer: 0
   m_Name: Police Elf (Bow)
   m_TagString: Untagged
@@ -311,7 +311,7 @@ Transform:
   m_GameObject: {fileID: 606538700076852901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children:
   - {fileID: 4000467771341954063}
   - {fileID: 78536776}
@@ -331,25 +331,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   donutCost: 2
---- !u!95 &159436719
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606538700076852901}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8d723a4b78038fd40bada81b05c56346, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &159436720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -382,10 +363,10 @@ BoxCollider2D:
   m_Offset: {x: 0.04916361, y: 0.032526493}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.26, y: 10.26}
+    newSize: {x: 10.26, y: 10.26}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
@@ -408,6 +389,25 @@ MonoBehaviour:
   deathVFX: {fileID: 8689930597795280961, guid: ed9e86437dbc7504da4df63ed11f32fe,
     type: 3}
   healthBar: {fileID: 532141943}
+--- !u!95 &758802427
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606538700076852901}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8d723a4b78038fd40bada81b05c56346, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4000467771341954057
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,7 +434,7 @@ RectTransform:
   m_GameObject: {fileID: 4000467771341954057}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 606538699875624959}
   m_Father: {fileID: 606538700076852898}
@@ -490,7 +490,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 10.24, y: 10.24}
+  m_Size: {x: 10.26, y: 10.26}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
