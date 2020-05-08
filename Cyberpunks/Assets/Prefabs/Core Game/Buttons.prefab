@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e52d11ebf81e93428e42d4ed351a7da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defenderPrefab: {fileID: 1212745996472745213, guid: a259a06f3e7355f4991159057d16bd79,
+  defenderPrefab: {fileID: 5318729771542290559, guid: c6b7f0a3c4803294483ad6108c700473,
     type: 3}
 --- !u!1 &1094343146
 GameObject:
@@ -558,7 +558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e52d11ebf81e93428e42d4ed351a7da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defenderPrefab: {fileID: 1212745996472745213, guid: a259a06f3e7355f4991159057d16bd79,
+  defenderPrefab: {fileID: 2520959200896219270, guid: 24c299688ff41af4f84fa2810ebace60,
     type: 3}
 --- !u!1 &2055099680
 GameObject:
@@ -838,7 +838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e52d11ebf81e93428e42d4ed351a7da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defenderPrefab: {fileID: 1212745996472745213, guid: a259a06f3e7355f4991159057d16bd79,
+  defenderPrefab: {fileID: 8331626634716623996, guid: d5f2a88dd4350be4f9c0f400de4212cc,
     type: 3}
 --- !u!1 &1651939637344864162
 GameObject:
@@ -1206,7 +1206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13107c761d2801479d2133a21df4187, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  donuts: 10
+  donuts: 20
   donutText: {fileID: 1651939638496986322}
 --- !u!1 &1651939638507304380
 GameObject:

@@ -2,35 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Attacker : MonoBehaviour
+public class MeleeDefender : MonoBehaviour
 {
-    [Range(0f, 5f)] float currentSpeed = 0.8f;
     GameObject currentTarget;
 
     // Start is called before the first frame update
     void Start()
     {
-
-    }
-
-    private void Awake()
-    {
-        FindObjectOfType<LevelController>().AttackerSpawned();
-    }
-
-    private void OnDestroy()
-    {
-        LevelController levelController = FindObjectOfType<LevelController>();
-        if (levelController != null)
-        {
-            levelController.AttackerKilled();
-        }
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.left * currentSpeed * Time.deltaTime);
         UpdateAnimationState();
     }
 
@@ -42,9 +26,16 @@ public class Attacker : MonoBehaviour
         }
     }
 
-    public void SetMovementSpeed(float speed)
+    private void OnTriggerEnter2D(Collider2D otherCollider)
     {
-        currentSpeed = speed;
+        {
+            GameObject otherObject = otherCollider.gameObject;
+
+            if (otherObject.GetComponent<Attacker>())
+            {
+                Attack(otherObject);
+            }
+        }
     }
 
     public void Attack(GameObject target)

@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 7c807075f3a6c51438611c556c5470b9
+guid: c88f07ab2549bfd49a27c79f2367e384
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4723107735738678597
-    second: Idle_0
+      213: 1137805138824052146
+    second: Jab_0
   - first:
-      213: -7385789195546760866
-    second: Idle_1
+      213: -227019496086430530
+    second: Jab_1
   - first:
-      213: 3234629978573100161
-    second: Idle_2
+      213: -3162778974338740330
+    second: Jab_2
   - first:
-      213: 6373048116405451881
-    second: Idle_3
+      213: -4123490879348563133
+    second: Jab_3
   - first:
-      213: 7264182050183361747
-    second: Idle_4
+      213: 7964509938292078108
+    second: Jab_4
   - first:
-      213: -2834552850196481573
-    second: Idle_5
+      213: 2350222999022308070
+    second: Jab_5
   - first:
-      213: 3278449094680734212
-    second: Idle_6
+      213: -1004888485343595907
+    second: Jab_6
   - first:
-      213: 3384493420599841878
-    second: Idle_7
+      213: -6748219853836766183
+    second: Jab_7
   - first:
-      213: -2331352242086191015
-    second: Idle_8
+      213: -2112295429535789645
+    second: Jab_8
   - first:
-      213: -3914248031228685145
-    second: Idle_9
+      213: 2394990277682272950
+    second: Jab_9
   - first:
-      213: 7132915409514813599
-    second: Idle_10
+      213: -5628685512477759139
+    second: Jab_10
   - first:
-      213: -2055793278435719954
-    second: Idle_11
+      213: -3823619282564297482
+    second: Jab_11
   - first:
-      213: -1133706752296058015
-    second: Idle_12
+      213: 1532873212009822146
+    second: Jab_12
   - first:
-      213: -7873313509577613512
-    second: Idle_13
+      213: 4535136296206831472
+    second: Jab_13
   - first:
-      213: 719741960001666856
-    second: Idle_14
+      213: -915872692967359236
+    second: Jab_14
   - first:
-      213: -2017107389029466533
-    second: Idle_15
+      213: 2435305402953612426
+    second: Jab_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -158,7 +158,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_0
+      name: Jab_0
       rect:
         serializedVersion: 2
         x: 0
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54d7a982679db8140800000000000000
-      internalID: 4723107735738678597
+      spriteID: 2bdb833debb4acf00800000000000000
+      internalID: 1137805138824052146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_1
+      name: Jab_1
       rect:
         serializedVersion: 2
         x: 1026
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e596485bbd7608990800000000000000
-      internalID: -7385789195546760866
+      spriteID: ebc1eaa98f679dcf0800000000000000
+      internalID: -227019496086430530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2
+      name: Jab_2
       rect:
         serializedVersion: 2
         x: 2052
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 184dda4e3d6b3ec20800000000000000
-      internalID: 3234629978573100161
+      spriteID: 69f077ba74d8b14d0800000000000000
+      internalID: -3162778974338740330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_3
+      name: Jab_3
       rect:
         serializedVersion: 2
         x: 3078
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96cb1dafe7d917850800000000000000
-      internalID: 6373048116405451881
+      spriteID: 343add574ea66c6c0800000000000000
+      internalID: -4123490879348563133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_4
+      name: Jab_4
       rect:
         serializedVersion: 2
         x: 0
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d4b2fc561f8fc460800000000000000
-      internalID: 7264182050183361747
+      spriteID: c16b7f1579f978e60800000000000000
+      internalID: 7964509938292078108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_5
+      name: Jab_5
       rect:
         serializedVersion: 2
         x: 1026
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd9b7fa6335a9a8d0800000000000000
-      internalID: -2834552850196481573
+      spriteID: 6ea8da79d5bad9020800000000000000
+      internalID: 2350222999022308070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_6
+      name: Jab_6
       rect:
         serializedVersion: 2
         x: 2052
@@ -298,14 +298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40a65a6e4146f7d20800000000000000
-      internalID: 3278449094680734212
+      spriteID: d72f6382f3bed02f0800000000000000
+      internalID: -1004888485343595907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_7
+      name: Jab_7
       rect:
         serializedVersion: 2
         x: 3078
@@ -319,14 +319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 654108f85d228fe20800000000000000
-      internalID: 3384493420599841878
+      spriteID: 91432d9ebc18952a0800000000000000
+      internalID: -6748219853836766183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_8
+      name: Jab_8
       rect:
         serializedVersion: 2
         x: 0
@@ -340,14 +340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9506424ec7f55afd0800000000000000
-      internalID: -2331352242086191015
+      spriteID: 3bd86dd8f7e9fa2e0800000000000000
+      internalID: -2112295429535789645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_9
+      name: Jab_9
       rect:
         serializedVersion: 2
         x: 1026
@@ -361,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a497d7772ccda9c0800000000000000
-      internalID: -3914248031228685145
+      spriteID: 6ba14c5e7f6bc3120800000000000000
+      internalID: 2394990277682272950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_10
+      name: Jab_10
       rect:
         serializedVersion: 2
         x: 2052
@@ -382,14 +382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f985a0de5c43df260800000000000000
-      internalID: 7132915409514813599
+      spriteID: d5920643954e2e1b0800000000000000
+      internalID: -5628685512477759139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_11
+      name: Jab_11
       rect:
         serializedVersion: 2
         x: 3078
@@ -403,14 +403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee40433c7ea5873e0800000000000000
-      internalID: -2055793278435719954
+      spriteID: 6fccb6a5586cfeac0800000000000000
+      internalID: -3823619282564297482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_12
+      name: Jab_12
       rect:
         serializedVersion: 2
         x: 0
@@ -424,14 +424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1638ee527b34440f0800000000000000
-      internalID: -1133706752296058015
+      spriteID: 2c7be87901cd54510800000000000000
+      internalID: 1532873212009822146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_13
+      name: Jab_13
       rect:
         serializedVersion: 2
         x: 1026
@@ -445,14 +445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83f9750e31f5cb290800000000000000
-      internalID: -7873313509577613512
+      spriteID: 07f8367ee6a00fe30800000000000000
+      internalID: 4535136296206831472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_14
+      name: Jab_14
       rect:
         serializedVersion: 2
         x: 2052
@@ -466,14 +466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82fb7dfcf790df900800000000000000
-      internalID: 719741960001666856
+      spriteID: cfc333463aa2a43f0800000000000000
+      internalID: -915872692967359236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_15
+      name: Jab_15
       rect:
         serializedVersion: 2
         x: 3078
@@ -487,8 +487,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5e351b448bc104e0800000000000000
-      internalID: -2017107389029466533
+      spriteID: a8cb3a67c51fbc120800000000000000
+      internalID: 2435305402953612426
       vertices: []
       indices: 
       edges: []

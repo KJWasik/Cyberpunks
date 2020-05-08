@@ -5,7 +5,7 @@ using TMPro;
 
 public class DonutDisplay : MonoBehaviour
 {
-    [SerializeField] int donuts = 10;
+    [SerializeField] int donuts = 20;
     [SerializeField] TextMeshProUGUI donutText;
 
     // Start is called before the first frame update
