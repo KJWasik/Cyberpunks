@@ -314,7 +314,7 @@ PrefabInstance:
         type: 3}
       propertyPath: attackersPrefabArray.Array.data[0]
       value: 
-      objectReference: {fileID: 7229465777786175414, guid: eedb9224ee750724ab6cd340a93cac89,
+      objectReference: {fileID: 6291192643246066226, guid: b660403d7fe17be418762a77ed80074b,
         type: 3}
     - target: {fileID: 3172694067393639100, guid: 59a2bb772a0faf94c8d82102165728f9,
         type: 3}
@@ -422,7 +422,7 @@ PrefabInstance:
         type: 3}
       propertyPath: attackersPrefabArray.Array.data[1]
       value: 
-      objectReference: {fileID: 8389141766167432272, guid: b11c69cf2268c7b4385b6ddb947c66cc,
+      objectReference: {fileID: 4343932534607254356, guid: b6c67c71001c4d247b0cd213e09c949f,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59a2bb772a0faf94c8d82102165728f9, type: 3}
@@ -524,7 +524,7 @@ PrefabInstance:
         type: 3}
       propertyPath: attackersPrefabArray.Array.data[1]
       value: 
-      objectReference: {fileID: 7229465777786175414, guid: eedb9224ee750724ab6cd340a93cac89,
+      objectReference: {fileID: 4343932534607254356, guid: b6c67c71001c4d247b0cd213e09c949f,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59a2bb772a0faf94c8d82102165728f9, type: 3}
@@ -598,7 +598,7 @@ PrefabInstance:
     - target: {fileID: 3172694067393639100, guid: 59a2bb772a0faf94c8d82102165728f9,
         type: 3}
       propertyPath: attackersPrefabArray.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3172694067393639100, guid: 59a2bb772a0faf94c8d82102165728f9,
         type: 3}
@@ -609,18 +609,18 @@ PrefabInstance:
     - target: {fileID: 3172694067393639100, guid: 59a2bb772a0faf94c8d82102165728f9,
         type: 3}
       propertyPath: minSpawnDelay
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3172694067393639100, guid: 59a2bb772a0faf94c8d82102165728f9,
         type: 3}
       propertyPath: maxSpawnDelay
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3172694067393639100, guid: 59a2bb772a0faf94c8d82102165728f9,
         type: 3}
       propertyPath: attackersPrefabArray.Array.data[0]
       value: 
-      objectReference: {fileID: 8389141766167432272, guid: b11c69cf2268c7b4385b6ddb947c66cc,
+      objectReference: {fileID: 6291192643246066226, guid: b660403d7fe17be418762a77ed80074b,
         type: 3}
     - target: {fileID: 3172694067393639100, guid: 59a2bb772a0faf94c8d82102165728f9,
         type: 3}
@@ -1400,7 +1400,7 @@ PrefabInstance:
         type: 3}
       propertyPath: attackersPrefabArray.Array.data[0]
       value: 
-      objectReference: {fileID: 8389141766167432272, guid: b11c69cf2268c7b4385b6ddb947c66cc,
+      objectReference: {fileID: 4343932534607254356, guid: b6c67c71001c4d247b0cd213e09c949f,
         type: 3}
     - target: {fileID: 3172694067393639100, guid: 59a2bb772a0faf94c8d82102165728f9,
         type: 3}

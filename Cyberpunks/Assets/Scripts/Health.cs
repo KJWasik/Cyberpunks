@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
     [SerializeField] float startHealth = 100f;
+    [SerializeField] GameObject hitVFX;
     [SerializeField] GameObject deathVFX;
     public Image healthBar;
     private float health;
@@ -24,6 +25,7 @@ public class Health : MonoBehaviour
 
     public void DealDamage(float damage)
     {
+        TriggerHitVFX();
         health -= damage;
         healthBar.fillAmount = health / startHealth;
 
@@ -34,12 +36,21 @@ public class Health : MonoBehaviour
         }
     }
 
+    private void TriggerHitVFX()
+    {
+        if (hitVFX)
+        {
+            GameObject hitVFXObject = Instantiate(hitVFX, transform.position, transform.rotation);
+            Destroy(hitVFXObject, 1f);
+        }
+    }
+
     private void TriggerDeathVFX()
     {
         if (deathVFX)
         {
             GameObject deathVFXObject = Instantiate(deathVFX, transform.position, transform.rotation);
-            Destroy(deathVFXObject, 2f);
+            Destroy(deathVFXObject, 0.4f);
         }
     }
 }

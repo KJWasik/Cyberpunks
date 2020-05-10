@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackerProjectile : MonoBehaviour
+public class Grenade : MonoBehaviour
 {
-    [SerializeField] float projectileSpeed = 10f;
-    [SerializeField] float damage = 200f;
+    [SerializeField] float grenadeSpeed = 6f;
+    [SerializeField] float damage = 400f;
     [SerializeField] GameObject explosionVFX;
 
     // Start is called before the first frame update
@@ -17,7 +17,7 @@ public class AttackerProjectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.left * projectileSpeed * Time.deltaTime);
+        transform.Translate(Vector2.left * grenadeSpeed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D otherCollider)
