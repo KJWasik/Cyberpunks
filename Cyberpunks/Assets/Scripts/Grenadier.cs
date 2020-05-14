@@ -6,33 +6,34 @@ using UnityEngine;
 public class Grenadier : MonoBehaviour
 {
     [SerializeField] GameObject grenade;
-    [SerializeField] GameObject throwPoint;
+    public Transform throwPoint;
+    public Transform[] throwDistances;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-
+        ThrowRay();
     }
 
-    // Update is called once per frame
-    void Update()
+    void ThrowRay()
     {
-
-    }
-
-    private void OnTriggerEnter2D(Collider2D otherCollider)
-    {
-        GameObject otherObject = otherCollider.gameObject;
-
-        if (otherObject.GetComponent<Defender>())
+        for (int i = 0; i <throwDistances.Length; i++)
         {
-            GetComponent<Attacker>().Attack(otherObject);
+            RaycastHit2D hitInfo = Physics2D.Raycast(throwDistances[i].position, throwDistances[i].right);
+
+            if (hitInfo)
+            {
+                GameObject defender = hitInfo.transform.gameObject;
+
+                if (defender.GetComponent<Defender>())
+                {
+                    GetComponent<Attacker>().Attack(defender);
+                }
+            }
         }
     }
 
     public void Throw()
     {
-
         Instantiate(grenade, throwPoint.transform.position, throwPoint.transform.rotation);
     }
 }
