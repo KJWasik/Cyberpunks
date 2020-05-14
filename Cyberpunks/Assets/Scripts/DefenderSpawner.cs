@@ -9,11 +9,12 @@ public class DefenderSpawner : MonoBehaviour
     Defender defender;
     GameObject defenderParent;
     const string DEFENDER_PARENT_NAME = "Defenders";
+    bool defenderSelected = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        CreateDefenderParent();
+       CreateDefenderParent();
     }
 
     // Update is called once per frame
@@ -34,11 +35,15 @@ public class DefenderSpawner : MonoBehaviour
 
     private void OnMouseDown()
     {
-        AttemptToPlaceDefenderAt(GetSquareClicked());
+        if (defenderSelected)
+        {
+            AttemptToPlaceDefenderAt(GetSquareClicked());
+        }
     }
 
     public void SetSelectedDefender(Defender defenderToSet)
     {
+        defenderSelected = true;
         defender = defenderToSet;
     }
 

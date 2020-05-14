@@ -5,43 +5,45 @@ using UnityEngine;
 public class RocketSoldier : MonoBehaviour
 {
     [SerializeField] GameObject projectile;
-    [SerializeField] GameObject weapon;
     [SerializeField] GameObject shootVFX;
+    public Transform shootPoint;
+    public Transform[] shootDistances;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-
+        ShootRay();
     }
 
-    // Update is called once per frame
-    void Update()
+    void ShootRay()
     {
-
-    }
-
-    private void OnTriggerEnter2D(Collider2D otherCollider)
-    {
-        GameObject otherObject = otherCollider.gameObject;
-
-        if (otherObject.GetComponent<Defender>())
+        for (int i = 0; i < shootDistances.Length; i++)
         {
-            GetComponent<Attacker>().Attack(otherObject);
+            RaycastHit2D hitInfo = Physics2D.Raycast(shootDistances[i].position, shootDistances[i].right);
+
+            if (hitInfo)
+            {
+                GameObject defender = hitInfo.transform.gameObject;
+
+                if (defender.GetComponent<Defender>())
+                {
+                    GetComponent<Attacker>().Attack(defender);
+                }
+            }
         }
     }
 
     public void Fire()
     {
         TriggerShootVFX();
-        Instantiate(projectile, weapon.transform.position, weapon.transform.rotation);
+        Instantiate(projectile, shootPoint.transform.position, shootPoint.transform.rotation);
     }
 
     private void TriggerShootVFX()
     {
         if (shootVFX)
         {
-            GameObject deathVFXObject = Instantiate(shootVFX, weapon.transform.position, weapon.transform.rotation);
-            Destroy(deathVFXObject, 1f);
+            GameObject shootVFXObject = Instantiate(shootVFX, shootPoint.transform.position, shootPoint.transform.rotation);
+            Destroy(shootVFXObject, 1f);
         }
     }
 }
