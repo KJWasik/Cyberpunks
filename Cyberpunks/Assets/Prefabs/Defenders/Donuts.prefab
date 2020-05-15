@@ -109,9 +109,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1172971627756603226}
   - component: {fileID: 1172971627756603225}
-  - component: {fileID: -2488909079210659143}
   - component: {fileID: 5413250934103760938}
   - component: {fileID: 2061022134520824461}
+  - component: {fileID: 29732479707252420}
+  - component: {fileID: -1582640162796566200}
   m_Layer: 0
   m_Name: Donuts
   m_TagString: Untagged
@@ -155,19 +156,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &-2488909079210659143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172971627756603224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31abcf59bec116a4e875a6585724606b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  donutCost: 5
 --- !u!61 &5413250934103760938
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -178,7 +166,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.05403711, y: 0.01904273}
@@ -206,9 +194,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 109b6b887d08e6844ae7ad703749723e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startHealth: 100
-  deathVFX: {fileID: 0}
+  startHealth: 1
+  hitVFX: {fileID: 1564971203014091643, guid: 32ce14bc9f69f44499f1797573a1edb0, type: 3}
+  deathVFX: {fileID: 1564971203014091643, guid: 32ce14bc9f69f44499f1797573a1edb0,
+    type: 3}
   healthBar: {fileID: 6343467845835721680}
+--- !u!114 &29732479707252420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172971627756603224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8e24891e7d7f494781be589d6bbe030, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickedAnimation: {fileID: 1564971203014091643, guid: 32ce14bc9f69f44499f1797573a1edb0,
+    type: 3}
+--- !u!114 &-1582640162796566200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172971627756603224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31abcf59bec116a4e875a6585724606b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  donutCost: 0
 --- !u!1 &1172971628148094237
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +252,7 @@ Transform:
   m_GameObject: {fileID: 1172971628148094237}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.18, y: -0.545, z: 0}
-  m_LocalScale: {x: 0.12, y: 0.12, z: 1}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 1}
   m_Children: []
   m_Father: {fileID: 1172971627756603226}
   m_RootOrder: 1
@@ -316,7 +333,7 @@ Transform:
   m_GameObject: {fileID: 1172971628500243451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.215, y: -0.241, z: 0}
-  m_LocalScale: {x: 0.18, y: 0.18, z: 1}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
   m_Children: []
   m_Father: {fileID: 1172971627756603226}
   m_RootOrder: 0

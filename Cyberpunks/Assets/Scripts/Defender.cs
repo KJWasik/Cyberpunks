@@ -18,11 +18,6 @@ public class Defender : MonoBehaviour
 
     }
 
-    public void AddDonuts(int amount)
-    {
-        FindObjectOfType<DonutDisplay>().AddDonuts(amount);
-    }
-
     public int GetDonutCost()
     {
         return donutCost;

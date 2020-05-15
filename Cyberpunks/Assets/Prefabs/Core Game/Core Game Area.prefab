@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5917290840942976965}
   - component: {fileID: 5917290840942976964}
   - component: {fileID: 5917290840942976967}
+  - component: {fileID: 1465344857}
   m_Layer: 0
   m_Name: Core Game Area
   m_TagString: Untagged
@@ -72,3 +73,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnAnimation: {fileID: 1564971203014091643, guid: cb14af06ab9c9044499cf4e775c1399f,
     type: 3}
+--- !u!114 &1465344857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5917290840942976966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08d0e788de81dc4eba4614dddf99650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnAnimation: {fileID: 1564971203014091643, guid: 32ce14bc9f69f44499f1797573a1edb0,
+    type: 3}
+  donut: {fileID: 29732479707252420, guid: b3d14fa65b191ed4587908b5795ab90a, type: 3}
+  maxTime: 12
+  minTime: 7

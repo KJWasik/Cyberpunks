@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31abcf59bec116a4e875a6585724606b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  donutCost: 2
+  donutCost: 12
 --- !u!114 &6724908199905380411
 MonoBehaviour:
   m_ObjectHideFlags: 0
