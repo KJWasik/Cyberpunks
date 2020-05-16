@@ -7,6 +7,7 @@ public class Donut : MonoBehaviour
 {
     [SerializeField] GameObject clickedAnimation;
     int donutsToAdd = 5;
+    float delayInSeconds = 0.2f;
 
     // Start is called before the first frame update
     void Start()
@@ -22,8 +23,16 @@ public class Donut : MonoBehaviour
 
     private void OnMouseDown()
     {
-        TriggerClickedAnimation();
+        StartCoroutine(WaitAndDestroy());
+       
         AddDonuts(donutsToAdd);
+       
+    }
+
+    IEnumerator WaitAndDestroy()
+    {
+        TriggerClickedAnimation();
+        yield return new WaitForSeconds(delayInSeconds);
         Destroy(gameObject);
     }
 
