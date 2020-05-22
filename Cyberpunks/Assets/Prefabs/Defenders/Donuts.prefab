@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5413250934103760938}
   - component: {fileID: 2061022134520824461}
   - component: {fileID: 29732479707252420}
-  - component: {fileID: -1582640162796566200}
+  - component: {fileID: -2931148294132165712}
   m_Layer: 0
   m_Name: Donuts
   m_TagString: Untagged
@@ -70,7 +70,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.05403711, y: 0.01904273}
+  m_Offset: {x: 0.054, y: 0.019}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -81,7 +81,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.012682, y: 1.0126872}
+  m_Size: {x: 1.012, y: 1.012}
   m_EdgeRadius: 0
 --- !u!114 &2061022134520824461
 MonoBehaviour:
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickedAnimation: {fileID: 1564971203014091643, guid: 32ce14bc9f69f44499f1797573a1edb0,
     type: 3}
---- !u!114 &-1582640162796566200
+--- !u!114 &-2931148294132165712
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31abcf59bec116a4e875a6585724606b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  donutCost: 0
+  donutCost: 5
 --- !u!1 &1172971628148094237
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,8 +152,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172971628148094237}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.18, y: -0.545, z: 0}
-  m_LocalScale: {x: 0.08, y: 0.08, z: 1}
+  m_LocalPosition: {x: -0.18, y: -0.596, z: 0}
+  m_LocalScale: {x: 0.07, y: 0.07, z: 1}
   m_Children: []
   m_Father: {fileID: 1172971627756603226}
   m_RootOrder: 1
@@ -233,8 +233,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172971628500243451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.215, y: -0.241, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalPosition: {x: -0.215, y: -0.292, z: 0}
+  m_LocalScale: {x: 0.11, y: 0.11, z: 1}
   m_Children: []
   m_Father: {fileID: 1172971627756603226}
   m_RootOrder: 0

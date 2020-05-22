@@ -52,7 +52,7 @@ public class DefenderSpawner : MonoBehaviour
         var donutDisplay = FindObjectOfType<DonutDisplay>();
         int defenderCost = defender.GetDonutCost();
 
-        if (donutDisplay.HaveEnoughDonuts(defenderCost))
+        if (donutDisplay.HaveEnoughDonuts(defenderCost) && PreventSpawnOverlap(gridPosition))
         {
             StartCoroutine(WaitAndSpawn(gridPosition));
             donutDisplay.SpendDonuts(defenderCost);
@@ -95,5 +95,22 @@ public class DefenderSpawner : MonoBehaviour
             GameObject newSpawnAnimation = Instantiate(spawnAnimation, positionToSpawn, Quaternion.identity);
             Destroy(newSpawnAnimation, 0.4f);
         }
+    }
+
+    // Checking each existing defender's position to decide whether the defender can be spawned.
+    private bool PreventSpawnOverlap(Vector2 spawnPosition)
+    {
+        var allDefenders = FindObjectsOfType<Defender>();
+
+        foreach (Defender defender in allDefenders)
+        {
+            var defenderPosition = new Vector2(defender.transform.position.x, defender.transform.position.y);
+            if (defenderPosition == spawnPosition)
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 }

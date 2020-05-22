@@ -53,7 +53,10 @@ public class DonutSpawner : MonoBehaviour
     private void AttemptToSpawnDonutAt(Vector2 gridPosition)
     {
         time = 0;
-        StartCoroutine(WaitAndSpawn(gridPosition));
+        if (PreventSpawnOverlap(gridPosition))
+        {
+            StartCoroutine(WaitAndSpawn(gridPosition));
+        }
     }
 
     private Vector2 GetSpawnPosition()
@@ -91,5 +94,22 @@ public class DonutSpawner : MonoBehaviour
             GameObject newSpawnAnimation = Instantiate(spawnAnimation, positionToSpawn, Quaternion.identity);
             Destroy(newSpawnAnimation, 0.4f);
         }
+    }
+
+    // Checking each existing collider's position to decide whether the donut can be spawned.
+    private bool PreventSpawnOverlap(Vector2 spawnPosition)
+    {
+        var allColliders = FindObjectsOfType<Collider2D>();
+
+        foreach (Collider2D collider in allColliders)
+        {
+            var colliderPosition = new Vector2(collider.transform.position.x, collider.transform.position.y);
+            if (colliderPosition == spawnPosition)
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
