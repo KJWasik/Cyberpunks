@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,7 @@ public class Health : MonoBehaviour
     [SerializeField] float startHealth = 100f;
     [SerializeField] GameObject hitVFX;
     [SerializeField] GameObject deathVFX;
+    public GameObject damagePopup;
     public Image healthBar;
     private float health;
 
@@ -26,6 +28,7 @@ public class Health : MonoBehaviour
     public void DealDamage(float damage)
     {
         TriggerHitVFX();
+        ShowDamagePopup(damage);
         health -= damage;
         healthBar.fillAmount = health / startHealth;
 
@@ -41,7 +44,7 @@ public class Health : MonoBehaviour
         if (hitVFX)
         {
             GameObject hitVFXObject = Instantiate(hitVFX, transform.position, transform.rotation);
-            Destroy(hitVFXObject, 1f);
+            Destroy(hitVFXObject, 0.45f);
         }
     }
 
@@ -51,6 +54,15 @@ public class Health : MonoBehaviour
         {
             GameObject deathVFXObject = Instantiate(deathVFX, transform.position, transform.rotation);
             Destroy(deathVFXObject, 0.4f);
+        }
+    }
+
+    private void ShowDamagePopup(float damage)
+    {
+        if (damagePopup)
+        {
+            damagePopup.GetComponent<TextMeshPro>().text = (-damage).ToString();
+            Instantiate(damagePopup, transform.position, Quaternion.identity, transform);
         }
     }
 }

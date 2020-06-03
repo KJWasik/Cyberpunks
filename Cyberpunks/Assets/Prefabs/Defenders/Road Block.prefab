@@ -61,8 +61,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHealth: 300
-  hitVFX: {fileID: 0}
+  hitVFX: {fileID: 7576759580302603445, guid: 5950cd9ed5122c44081e66e3131fd8fe, type: 3}
   deathVFX: {fileID: 1564971203014091643, guid: cb14af06ab9c9044499cf4e775c1399f,
+    type: 3}
+  damagePopup: {fileID: 2109071335114538585, guid: bec218a009b4cd1438588551c33a894e,
     type: 3}
   healthBar: {fileID: 2088203517013618109}
 --- !u!61 &7872944917522191766
