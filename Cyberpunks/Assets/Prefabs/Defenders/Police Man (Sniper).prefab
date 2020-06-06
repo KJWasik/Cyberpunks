@@ -55,8 +55,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5636086698421687421}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalPosition: {x: 0, y: -0.09500001, z: 0}
+  m_LocalScale: {x: 0.18, y: 0.18, z: 1}
   m_Children:
   - {fileID: 5636086698414977630}
   m_Father: {fileID: 5636086699176064947}
@@ -143,7 +143,7 @@ Transform:
   m_GameObject: {fileID: 5636086699176064944}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 3.06, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5636086698421687420}
   - {fileID: 3971495467001838433}
@@ -212,7 +212,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.08022809, y: 0.4010625}
+  m_Offset: {x: 0.006832063, y: 0.015178323}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -223,7 +223,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.2120433, y: 5.4517794}
+  m_Size: {x: 1.008268, y: 0.99603105}
   m_EdgeRadius: 0
 --- !u!95 &3420601032593109372
 Animator:
@@ -314,12 +314,12 @@ PrefabInstance:
     - target: {fileID: 6956059341483507771, guid: c09d1b4dca77e9c4db594672bbefdb1c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 0.014
       objectReference: {fileID: 0}
     - target: {fileID: 6956059341483507771, guid: c09d1b4dca77e9c4db594672bbefdb1c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.85
+      value: 0.44
       objectReference: {fileID: 0}
     - target: {fileID: 6956059341483507771, guid: c09d1b4dca77e9c4db594672bbefdb1c,
         type: 3}
@@ -364,12 +364,12 @@ PrefabInstance:
     - target: {fileID: 6956059341483507771, guid: c09d1b4dca77e9c4db594672bbefdb1c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 6956059341483507771, guid: c09d1b4dca77e9c4db594672bbefdb1c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09d1b4dca77e9c4db594672bbefdb1c, type: 3}

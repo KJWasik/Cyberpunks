@@ -37,7 +37,7 @@ public class AttackerProjectile : MonoBehaviour
         if (explosionVFX)
         {
             GameObject deathVFXObject = Instantiate(explosionVFX, transform.position, transform.rotation);
-            Destroy(deathVFXObject, 0.8f);
+            Destroy(deathVFXObject, 0.4f);
         }
     }
 }
