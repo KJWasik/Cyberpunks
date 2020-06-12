@@ -6,9 +6,9 @@ using UnityEngine.UIElements;
 public class DonutSpawner : MonoBehaviour
 {
     [SerializeField] GameObject spawnAnimation;
-    [SerializeField] Donut donut;
+    [SerializeField] Donut[] donuts;
     GameObject donutParent;
-    float delayInSeconds = 0.2f;
+    float delayInSeconds = 0.05f;
     public float maxTime = 8f;
     public float minTime = 5f;
     const string DONUT_PARENT_NAME = "Donuts";
@@ -76,7 +76,7 @@ public class DonutSpawner : MonoBehaviour
 
     private void SpawnDonut(Vector2 positionToSpawn)
     {
-        Donut newDonut = Instantiate(donut, positionToSpawn, Quaternion.identity) as Donut;
+        Donut newDonut = Instantiate(donuts[Random.Range(0, 3)], positionToSpawn, Quaternion.identity) as Donut;
         newDonut.transform.parent = donutParent.transform; // Adding to a parent object
     }
 
@@ -92,7 +92,7 @@ public class DonutSpawner : MonoBehaviour
         if (spawnAnimation)
         {
             GameObject newSpawnAnimation = Instantiate(spawnAnimation, positionToSpawn, Quaternion.identity);
-            Destroy(newSpawnAnimation, 0.4f);
+            Destroy(newSpawnAnimation, 0.3f);
         }
     }
 

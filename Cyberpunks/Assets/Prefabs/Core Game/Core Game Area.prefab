@@ -85,8 +85,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e08d0e788de81dc4eba4614dddf99650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnAnimation: {fileID: 1564971203014091643, guid: 32ce14bc9f69f44499f1797573a1edb0,
+  spawnAnimation: {fileID: 5978394448662063987, guid: eedd816e478b0d847874ee8328b290f5,
     type: 3}
-  donut: {fileID: 29732479707252420, guid: b3d14fa65b191ed4587908b5795ab90a, type: 3}
-  maxTime: 12
-  minTime: 7
+  donuts:
+  - {fileID: 3542260735019105214, guid: b38df8fe2b61ad4419f348c805719553, type: 3}
+  - {fileID: 7032269838605721438, guid: 4f64503614bfc814f97e84f14c7293b7, type: 3}
+  - {fileID: 212583679164413041, guid: 325abe8498cd7b54c81cc996aea29a26, type: 3}
+  maxTime: 10
+  minTime: 5

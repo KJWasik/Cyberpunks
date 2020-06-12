@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fe8764765b9338449f256898822049d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 10
-  damage: 300
+  projectileSpeed: 25
+  damage: 500
   explosionVFX: {fileID: 1968106297884061850, guid: 4a8628a621c92a647ad299d4f7666489,
     type: 3}

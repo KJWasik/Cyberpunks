@@ -6,8 +6,8 @@ using UnityEngine.UIElements;
 public class Donut : MonoBehaviour
 {
     [SerializeField] GameObject clickedAnimation;
-    int donutsToAdd = 5;
-    float delayInSeconds = 0.2f;
+    [SerializeField] int donutsToAdd = 5;
+    float delayInSeconds = 0.05f;
 
     // Start is called before the first frame update
     void Start()
@@ -46,7 +46,7 @@ public class Donut : MonoBehaviour
         if (clickedAnimation)
         {
             GameObject newSpawnAnimation = Instantiate(clickedAnimation, transform.position, Quaternion.identity);
-            Destroy(newSpawnAnimation, 0.4f);
+            Destroy(newSpawnAnimation, 0.3f);
         }
     }
 }

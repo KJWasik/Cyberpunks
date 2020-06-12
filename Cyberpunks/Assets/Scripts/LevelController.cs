@@ -22,9 +22,12 @@ public class LevelController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
+        if (winScreen.activeSelf == false && loseScreen.activeSelf == false) // pause not working on win or loose screen.
         {
-            Toggle();
+            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
+            {
+                Toggle();
+            }
         }
     }
 

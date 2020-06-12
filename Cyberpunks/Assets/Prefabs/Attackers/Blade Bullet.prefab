@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 168c2588e0b71af49bb5a61bf0565676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 5
+  projectileSpeed: 25
   damage: 50
 --- !u!212 &7933869023390081675
 SpriteRenderer:
@@ -159,5 +159,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpeed: 10
-  damage: 200
+  damage: 50
   explosionVFX: {fileID: 0}
