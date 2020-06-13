@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 596b5a2844c44f14c90e3832de6ad6dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnAnimation: {fileID: 1564971203014091643, guid: cb14af06ab9c9044499cf4e775c1399f,
+  spawnAnimation: {fileID: 4302885242432054484, guid: a79670a1217ba7945a3591974cd3e47f,
     type: 3}
 --- !u!114 &1465344857
 MonoBehaviour:
