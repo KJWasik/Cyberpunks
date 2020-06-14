@@ -23,5 +23,9 @@ public class DamageCollider : MonoBehaviour
             FindObjectOfType<LivesDisplay>().TakeLife();
             Destroy(otherCollider.gameObject);
         }
+        else
+        {
+            Destroy(otherCollider.gameObject);
+        }
     }
 }

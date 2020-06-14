@@ -973,7 +973,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31abcf59bec116a4e875a6585724606b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  disappearAnimation: {fileID: 0}
+  disappearTime: 10
   donutCost: 2
+  timerBar: {fileID: 0}
 --- !u!61 &1703383039179844419
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1070,8 +1073,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHealth: 1000
+  hitVFX: {fileID: 0}
   deathVFX: {fileID: 8689930597795280961, guid: ed9e86437dbc7504da4df63ed11f32fe,
     type: 3}
+  damagePopup: {fileID: 0}
   healthBar: {fileID: 3459109910310696261}
 --- !u!222 &3200554158914042330
 CanvasRenderer:
