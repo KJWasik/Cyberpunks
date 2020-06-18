@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31abcf59bec116a4e875a6585724606b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disappearAnimation: {fileID: 1564971203014091643, guid: cb14af06ab9c9044499cf4e775c1399f,
+  disappearAnimation: {fileID: 4302885242432054484, guid: a79670a1217ba7945a3591974cd3e47f,
     type: 3}
   disappearTime: 15
   donutCost: 12

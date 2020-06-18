@@ -7,6 +7,8 @@ using UnityEngine.Rendering.Universal.Internal;
 public class CharacterScreen : ScriptableObject
 {
     public new string name;
+    public Color nameTopColor;
+    public Color nameBottomColor;
 
     public Sprite artwork;
 

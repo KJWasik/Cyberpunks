@@ -30,6 +30,23 @@ public class CharacterDisplay : MonoBehaviour
         nameText.text = characterScreens.ElementAt(index).name;
         nameTextShadow.text = characterScreens.ElementAt(index).name;
 
+        nameText.colorGradient = new VertexGradient(
+            new Color(characterScreens.ElementAt(index).nameTopColor.r,
+            characterScreens.ElementAt(index).nameTopColor.g,
+            characterScreens.ElementAt(index).nameTopColor.b),
+
+            new Color(characterScreens.ElementAt(index).nameTopColor.r,
+            characterScreens.ElementAt(index).nameTopColor.g,
+            characterScreens.ElementAt(index).nameTopColor.b),
+
+            new Color(characterScreens.ElementAt(index).nameBottomColor.r,
+            characterScreens.ElementAt(index).nameBottomColor.g,
+            characterScreens.ElementAt(index).nameBottomColor.b),
+
+            new Color(characterScreens.ElementAt(index).nameBottomColor.r,
+            characterScreens.ElementAt(index).nameBottomColor.g,
+            characterScreens.ElementAt(index).nameBottomColor.b));
+
         artworkImage.GetComponent<SpriteRenderer>().sprite = characterScreens.ElementAt(index).artwork;
 
         powerBarImage.fillAmount = characterScreens.ElementAt(index).power;

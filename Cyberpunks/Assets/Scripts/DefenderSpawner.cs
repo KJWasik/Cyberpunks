@@ -93,7 +93,7 @@ public class DefenderSpawner : MonoBehaviour
         if (spawnAnimation)
         {
             GameObject newSpawnAnimation = Instantiate(spawnAnimation, positionToSpawn, Quaternion.identity);
-            Destroy(newSpawnAnimation, 0.25f);
+            Destroy(newSpawnAnimation, 0.3f);
         }
     }
 

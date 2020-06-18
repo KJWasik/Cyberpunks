@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Red
   m_EditorClassIdentifier: 
   name: Red
+  nameTopColor: {r: 0.88235295, g: 0.09019608, b: 0, a: 0}
+  nameBottomColor: {r: 0, g: 0.13725491, b: 0.5764706, a: 0}
   artwork: {fileID: 21300000, guid: 6b32071d2702407478f4ea7a15a9d377, type: 3}
   power: 0.6
   cost: 0.7

@@ -1370,6 +1370,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1465344857, guid: 6e0fa15fc72ad024ea87144ed6a71644, type: 3}
+      propertyPath: spawnAnimation
+      value: 
+      objectReference: {fileID: 451161701643031988, guid: a73dcae6d6d40ea4a95d75a188525ef1,
+        type: 3}
     - target: {fileID: 5917290840942976965, guid: 6e0fa15fc72ad024ea87144ed6a71644,
         type: 3}
       propertyPath: m_LocalPosition.x

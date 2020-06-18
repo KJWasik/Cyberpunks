@@ -7,7 +7,7 @@ public class Donut : MonoBehaviour
 {
     [SerializeField] GameObject clickedAnimation;
     [SerializeField] int donutsToAdd = 5;
-    float delayInSeconds = 0.05f;
+    float delayInSeconds = 0.2f;
 
     // Start is called before the first frame update
     void Start()

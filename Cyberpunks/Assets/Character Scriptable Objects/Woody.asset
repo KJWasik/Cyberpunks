@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Woody
   m_EditorClassIdentifier: 
   name: Woody
+  nameTopColor: {r: 0.73333335, g: 0.23529413, b: 0.22352943, a: 0}
+  nameBottomColor: {r: 0.32156864, g: 0.31764707, b: 0.32156864, a: 0}
   artwork: {fileID: 21300000, guid: 90400b774de1b394bb582636fac34896, type: 3}
   power: 0
   cost: 1

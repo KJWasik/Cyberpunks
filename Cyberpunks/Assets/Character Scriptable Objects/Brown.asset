@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Brown
   m_EditorClassIdentifier: 
   name: Brown
+  nameTopColor: {r: 0.18039216, g: 0.09019608, b: 0, a: 0}
+  nameBottomColor: {r: 0.08627451, g: 0.21960786, b: 0.2784314, a: 0}
   artwork: {fileID: 21300000, guid: 038f49ce8fce75f4fab6fc7ae0feba7b, type: 3}
   power: 0.8
   cost: 0.8
