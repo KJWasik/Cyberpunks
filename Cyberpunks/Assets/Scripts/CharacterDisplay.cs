@@ -62,30 +62,23 @@ public class CharacterDisplay : MonoBehaviour
         LastCharacter();
     }
 
-    private void NextCharacter()
+    public void NextCharacter()
     {
-        if (Input.GetKeyDown(KeyCode.N))
+        if (index + 1 == characterScreens.Length)
         {
-            if (index == characterScreens.Length - 1)
-            {
-                return;
-            }
-            index += 1;
-            characterScreens.ElementAt(index);
-
+            return;
         }
+        index += 1;
+        characterScreens.ElementAt(index);
     }
 
-    private void LastCharacter()
+    public void LastCharacter()
     {
-        if (Input.GetKeyDown(KeyCode.L))
+        if (index == 0)
         {
-            if (index == 0)
-            {
-                return;
-            }
-            index -= 1;
-            characterScreens.ElementAt(index);
+            return;
         }
+        index -= 1;
+        characterScreens.ElementAt(index);
     }
 }

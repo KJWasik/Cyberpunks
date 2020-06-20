@@ -34,7 +34,7 @@ public class LevelController : MonoBehaviour
     public void Toggle()
     {
         pauseScreen.SetActive(!pauseScreen.activeSelf);
-
+       
         if (pauseScreen.activeSelf)
         {
             Time.timeScale = 0f;
