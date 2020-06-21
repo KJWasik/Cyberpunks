@@ -14,19 +14,25 @@ public class LevelController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        winScreen.SetActive(false);
-        loseScreen.SetActive(false);
-        pauseScreen.SetActive(false);
+        if (winScreen != null && loseScreen != null && pauseScreen != null)
+        {
+            winScreen.SetActive(false);
+            loseScreen.SetActive(false);
+            pauseScreen.SetActive(false);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (winScreen.activeSelf == false && loseScreen.activeSelf == false) // pause not working on win or loose screen.
+        if (winScreen != null && loseScreen != null && pauseScreen != null)
         {
-            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
+            if (winScreen.activeSelf == false && loseScreen.activeSelf == false) // pause not working on win or loose screen.
             {
-                Toggle();
+                if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
+                {
+                    Toggle();
+                }
             }
         }
     }

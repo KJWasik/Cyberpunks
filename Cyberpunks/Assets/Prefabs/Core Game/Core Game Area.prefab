@@ -85,7 +85,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e08d0e788de81dc4eba4614dddf99650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnAnimation: {fileID: 5978394448662063987, guid: eedd816e478b0d847874ee8328b290f5,
+  spawnAnimation: {fileID: 451161701643031988, guid: a73dcae6d6d40ea4a95d75a188525ef1,
     type: 3}
   donuts:
   - {fileID: 3542260735019105214, guid: b38df8fe2b61ad4419f348c805719553, type: 3}

@@ -30,7 +30,6 @@ public class Defender : MonoBehaviour
         time = disappearTime;
         while (time > 0)
         {
-            Debug.Log("Countdown: " + time);
             timerBar.fillAmount = time / disappearTime;
             yield return new WaitForSeconds(1f);
             time--;

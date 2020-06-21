@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
@@ -8,6 +9,7 @@ public class LevelLoader : MonoBehaviour
     [SerializeField] float delayInSeconds = 3f;
     int currentSceneIndex;
     SceneFader sceneFader;
+    public Slider timeSlider;
 
     public string menuName = "Menu Screen";
     public string level1Name = "Level 1";
@@ -16,6 +18,12 @@ public class LevelLoader : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (timeSlider != null)
+        {
+            //Adds a listener to the main slider and invokes a method when the value changes.
+            timeSlider.onValueChanged.AddListener(delegate { ValueChangeCheck(); });
+        }
+
         sceneFader = FindObjectOfType<SceneFader>();
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 
@@ -31,6 +39,15 @@ public class LevelLoader : MonoBehaviour
 
     }
 
+    // Invoked when the value of the slider changes.
+    public void ValueChangeCheck()
+    {
+        if (timeSlider.value == 1)
+        {
+            LoadNextScene();
+        }
+    }
+
     // Showing Loading Screen for 3 seconds
     IEnumerator WaitAndLoad()
     {
@@ -42,38 +59,32 @@ public class LevelLoader : MonoBehaviour
     {
         Time.timeScale = 1;
         sceneFader.FadeTo(menuName);
-        //SceneManager.LoadScene("Start Screen");
     }
 
     public void LoadOptionsScene()
     {
         sceneFader.FadeTo(optionsName);
-        //SceneManager.LoadScene("Options Screen");
     }
 
     public void RestartScene()
     {
         Time.timeScale = 1;
         sceneFader.FadeTo(SceneManager.GetActiveScene().name);
-        //SceneManager.LoadScene(currentSceneIndex);
     }
 
     public void LoadNextScene()
     {
         sceneFader.FadeTo(currentSceneIndex + 1);
-        //SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
     public void LoadGameOver()
     {
         sceneFader.FadeTo(gameOverName);
-        //SceneManager.LoadScene("Game Over");
     }
 
     public void PlayAgain()
     {
         sceneFader.FadeTo(level1Name);
-        //SceneManager.LoadScene("Level 1");
     }
 
     public void QuitGame()

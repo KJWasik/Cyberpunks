@@ -1758,6 +1758,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+    - target: {fileID: 2097790933338696096, guid: 031b0072e7e8f7744bc25cae63a739ce,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2079266032}
+    - target: {fileID: 2097790933338696096, guid: 031b0072e7e8f7744bc25cae63a739ce,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Toggle
+      objectReference: {fileID: 0}
     - target: {fileID: 8757265501107857652, guid: 031b0072e7e8f7744bc25cae63a739ce,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2595,7 +2605,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 1752728278, guid: 08553420dce36164688aa9fd244c00c5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -687.9
+      value: -713
       objectReference: {fileID: 0}
     - target: {fileID: 1752728278, guid: 08553420dce36164688aa9fd244c00c5, type: 3}
       propertyPath: m_SizeDelta.x
