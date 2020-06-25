@@ -391,6 +391,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c743d8d2148b74e9a83b70513f4d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitSound: {fileID: 0}
+  hitSoundVolume: 0.3
 --- !u!61 &7229465777786175415
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -437,6 +439,8 @@ MonoBehaviour:
   shootDistances:
   - {fileID: 7229465777344912901}
   - {fileID: 7927761532329661823}
+  shootSound: {fileID: 8300000, guid: 8c16e3985267d4544897c73a82c4a8dd, type: 3}
+  shootSoundVolume: 0.1
 --- !u!114 &1737693902
 MonoBehaviour:
   m_ObjectHideFlags: 0

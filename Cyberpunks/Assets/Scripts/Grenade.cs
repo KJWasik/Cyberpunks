@@ -9,6 +9,9 @@ public class Grenade : MonoBehaviour
     [SerializeField] GameObject explosionVFX;
     float timeToExplode = 0.5f;
 
+    [SerializeField] AudioClip explosionSound;
+    [SerializeField] [Range(0, 1)] float explosionSoundVolume = 0.3f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +34,7 @@ public class Grenade : MonoBehaviour
         {
             Destroy(gameObject);
             TriggerExplosionVFX();
+            TriggerExplosionSound();
             health.DealDamage(damage);
         }
     }
@@ -39,6 +43,7 @@ public class Grenade : MonoBehaviour
     {
         yield return new WaitForSeconds(timeToExplode);
         TriggerExplosionVFX();
+        TriggerExplosionSound();
         Destroy(gameObject);
     }
 
@@ -48,6 +53,14 @@ public class Grenade : MonoBehaviour
         {
             GameObject deathVFXObject = Instantiate(explosionVFX, transform.position, transform.rotation);
             Destroy(deathVFXObject, 0.4f);
+        }
+    }
+
+    private void TriggerExplosionSound()
+    {
+        if (explosionSound)
+        {
+            AudioSource.PlayClipAtPoint(explosionSound, Camera.main.transform.position, explosionSoundVolume);
         }
     }
 }

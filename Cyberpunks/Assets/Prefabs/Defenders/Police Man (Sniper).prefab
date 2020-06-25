@@ -185,6 +185,8 @@ MonoBehaviour:
   weapon: {fileID: 5636086698414977631}
   shootVFX: {fileID: 7983009081042072988, guid: d7c766305ac34414e9518f30c362750e,
     type: 3}
+  shootSound: {fileID: 8300000, guid: 6119b3b70c046b846b6ee4d23321b465, type: 3}
+  shootSoundVolume: 0.1
 --- !u!114 &352962423239516367
 MonoBehaviour:
   m_ObjectHideFlags: 0

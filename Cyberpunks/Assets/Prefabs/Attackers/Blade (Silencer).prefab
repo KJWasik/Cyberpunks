@@ -80,6 +80,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c743d8d2148b74e9a83b70513f4d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitSound: {fileID: 0}
+  hitSoundVolume: 0.2
 --- !u!114 &2577042505197394278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,6 +102,8 @@ MonoBehaviour:
   shootDistances:
   - {fileID: 5715115878314006720}
   - {fileID: 8502025346247121574}
+  shootSound: {fileID: 8300000, guid: 2c8cf9a742e396549a5db968f7184bbc, type: 3}
+  shootSoundVolume: 0.3
 --- !u!114 &2577042505197394297
 MonoBehaviour:
   m_ObjectHideFlags: 0

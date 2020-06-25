@@ -397,6 +397,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c743d8d2148b74e9a83b70513f4d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitSound: {fileID: 8300000, guid: c3d384db2adf4e642aa3ce83ac52673a, type: 3}
+  hitSoundVolume: 0.2
 --- !u!61 &-8571469546630400529
 BoxCollider2D:
   m_ObjectHideFlags: 0

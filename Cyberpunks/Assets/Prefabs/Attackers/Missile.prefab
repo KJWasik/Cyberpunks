@@ -147,3 +147,5 @@ MonoBehaviour:
   damage: 500
   explosionVFX: {fileID: 1968106297884061850, guid: 4a8628a621c92a647ad299d4f7666489,
     type: 3}
+  hitSound: {fileID: 8300000, guid: a578daf306c3ac049aaad38b8015fb60, type: 3}
+  hitSoundVolume: 0.3

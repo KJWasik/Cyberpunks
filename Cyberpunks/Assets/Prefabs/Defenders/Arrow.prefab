@@ -145,3 +145,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpeed: 20
   damage: 30
+  hitSound: {fileID: 8300000, guid: c3d384db2adf4e642aa3ce83ac52673a, type: 3}
+  hitSoundVolume: 0.3

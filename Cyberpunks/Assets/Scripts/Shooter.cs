@@ -12,6 +12,9 @@ public class Shooter : MonoBehaviour
     const string PROJECTILE_PARENT_NAME = "Projectiles";
     AttackerSpawner myLaneSpawner;
 
+    [SerializeField] AudioClip shootSound;
+    [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.3f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +49,7 @@ public class Shooter : MonoBehaviour
     public void Fire()
     {
         TriggerShootVFX();
+        TriggerShootSound();
         GameObject newProjectile = Instantiate(projectile, weapon.transform.position, weapon.transform.rotation) as GameObject;
         newProjectile.transform.parent = projectileParent.transform; // Adding to a parent object
     }
@@ -56,6 +60,14 @@ public class Shooter : MonoBehaviour
         {
             GameObject deathVFXObject = Instantiate(shootVFX, weapon.transform.position, weapon.transform.rotation);
             Destroy(deathVFXObject, 1f);
+        }
+    }
+
+    private void TriggerShootSound()
+    {
+        if (shootSound)
+        {
+            AudioSource.PlayClipAtPoint(shootSound, Camera.main.transform.position, shootSoundVolume);
         }
     }
 

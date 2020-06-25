@@ -7,6 +7,9 @@ public class Projectile : MonoBehaviour
     [SerializeField] float projectileSpeed = 10f;
     [SerializeField] float damage = 100f;
 
+    [SerializeField] AudioClip hitSound;
+    [SerializeField] [Range(0, 1)] float hitSoundVolume = 0.3f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +30,16 @@ public class Projectile : MonoBehaviour
         if (health && attacker)
         {
             health.DealDamage(damage);
+            TriggerHitSound();
             Destroy(gameObject);
+        }
+    }
+
+    private void TriggerHitSound()
+    {
+        if (hitSound)
+        {
+            AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position, hitSoundVolume);
         }
     }
 }

@@ -6,6 +6,9 @@ public class MeleeDefender : MonoBehaviour
 {
     GameObject currentTarget;
 
+    [SerializeField] AudioClip hitSound;
+    [SerializeField] [Range(0, 1)] float hitSoundVolume = 0.3f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,7 +56,16 @@ public class MeleeDefender : MonoBehaviour
             if (health)
             {
                 health.DealDamage(damage);
+                TriggerHitSound();
             }
+        }
+    }
+
+    private void TriggerHitSound()
+    {
+        if (hitSound)
+        {
+            AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position, hitSoundVolume);
         }
     }
 }

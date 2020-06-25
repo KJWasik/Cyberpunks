@@ -6,6 +6,9 @@ public class Bomber : MonoBehaviour
 {
     [SerializeField] GameObject explosionVFX;
 
+    [SerializeField] AudioClip explosionSound;
+    [SerializeField] [Range(0, 1)] float explosionSoundVolume = 0.3f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +36,7 @@ public class Bomber : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         TriggerExplosionVFX();
+        TriggerExplosionSound();
         Destroy(gameObject);
     }
 
@@ -42,6 +46,14 @@ public class Bomber : MonoBehaviour
         {
             GameObject explosionVFXObject = Instantiate(explosionVFX, transform.position, transform.rotation);
             Destroy(explosionVFXObject, 0.4f);
+        }
+    }
+
+    private void TriggerExplosionSound()
+    {
+        if (explosionSound)
+        {
+            AudioSource.PlayClipAtPoint(explosionSound, Camera.main.transform.position, explosionSoundVolume);
         }
     }
 }

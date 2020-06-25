@@ -8,6 +8,9 @@ public class AttackerProjectile : MonoBehaviour
     [SerializeField] float damage = 200f;
     [SerializeField] GameObject explosionVFX;
 
+    [SerializeField] AudioClip hitSound;
+    [SerializeField] [Range(0, 1)] float hitSoundVolume = 0.3f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,16 +31,26 @@ public class AttackerProjectile : MonoBehaviour
         if (health && defender)
         {
             TriggerExplosionVFX();
+            TriggerHitSound();
             Destroy(gameObject);
             health.DealDamage(damage);
         }
     }
+
     private void TriggerExplosionVFX()
     {
         if (explosionVFX)
         {
             GameObject deathVFXObject = Instantiate(explosionVFX, transform.position, transform.rotation);
             Destroy(deathVFXObject, 0.4f);
+        }
+    }
+
+    private void TriggerHitSound()
+    {
+        if (hitSound)
+        {
+            AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position, hitSoundVolume);
         }
     }
 }

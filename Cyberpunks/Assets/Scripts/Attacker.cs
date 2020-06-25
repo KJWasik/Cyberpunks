@@ -7,6 +7,9 @@ public class Attacker : MonoBehaviour
     [Range(0f, 5f)] float currentSpeed = 0.8f;
     GameObject currentTarget;
 
+    [SerializeField] AudioClip hitSound;
+    [SerializeField] [Range(0, 1)] float hitSoundVolume = 0.3f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -62,7 +65,16 @@ public class Attacker : MonoBehaviour
             if (health)
             {
                 health.DealDamage(damage);
+                TriggerHitSound();
             }
+        }
+    }
+
+    private void TriggerHitSound()
+    {
+        if (hitSound)
+        {
+            AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position, hitSoundVolume);
         }
     }
 }

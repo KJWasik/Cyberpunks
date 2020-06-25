@@ -131,6 +131,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c743d8d2148b74e9a83b70513f4d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitSound: {fileID: 0}
+  hitSoundVolume: 0.3
 --- !u!114 &6146523762120922455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +147,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionVFX: {fileID: 1968106297884061850, guid: 4a8628a621c92a647ad299d4f7666489,
     type: 3}
+  explosionSound: {fileID: 8300000, guid: a578daf306c3ac049aaad38b8015fb60, type: 3}
+  explosionSoundVolume: 0.3
 --- !u!114 &4466172105546509958
 MonoBehaviour:
   m_ObjectHideFlags: 0

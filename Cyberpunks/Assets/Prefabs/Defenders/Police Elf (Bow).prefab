@@ -352,6 +352,8 @@ MonoBehaviour:
     type: 3}
   weapon: {fileID: 606538699875624952}
   shootVFX: {fileID: 0}
+  shootSound: {fileID: 8300000, guid: 472bb14a395dd014ea4350c4ae3cc5f7, type: 3}
+  shootSoundVolume: 0.4
 --- !u!61 &8412634678716796446
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -27,27 +27,27 @@ public class LevelController : MonoBehaviour
     {
         if (winScreen != null && loseScreen != null && pauseScreen != null)
         {
-            if (winScreen.activeSelf == false && loseScreen.activeSelf == false) // pause not working on win or loose screen.
+            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
             {
-                if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
-                {
-                    Toggle();
-                }
+                Toggle();
             }
         }
     }
 
     public void Toggle()
     {
-        pauseScreen.SetActive(!pauseScreen.activeSelf);
-       
-        if (pauseScreen.activeSelf)
+        if (winScreen.activeSelf == false && loseScreen.activeSelf == false) // pause not working on win or loose screen.
         {
-            Time.timeScale = 0f;
-        }
-        else
-        {
-            Time.timeScale = 1f;
+            pauseScreen.SetActive(!pauseScreen.activeSelf);
+
+            if (pauseScreen.activeSelf)
+            {
+                Time.timeScale = 0f;
+            }
+            else
+            {
+                Time.timeScale = 1f;
+            }
         }
     }
 

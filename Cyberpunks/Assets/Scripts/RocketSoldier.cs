@@ -9,6 +9,9 @@ public class RocketSoldier : MonoBehaviour
     public Transform shootPoint;
     public Transform[] shootDistances;
 
+    [SerializeField] AudioClip shootSound;
+    [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.3f;
+
     private void Update()
     {
         ShootRay();
@@ -35,6 +38,7 @@ public class RocketSoldier : MonoBehaviour
     public void Fire()
     {
         TriggerShootVFX();
+        TriggerShootSound();
         Instantiate(projectile, shootPoint.transform.position, shootPoint.transform.rotation);
     }
 
@@ -44,6 +48,14 @@ public class RocketSoldier : MonoBehaviour
         {
             GameObject shootVFXObject = Instantiate(shootVFX, shootPoint.transform.position, shootPoint.transform.rotation);
             Destroy(shootVFXObject, 1f);
+        }
+    }
+
+    private void TriggerShootSound()
+    {
+        if (shootSound)
+        {
+            AudioSource.PlayClipAtPoint(shootSound, Camera.main.transform.position, shootSoundVolume);
         }
     }
 }
