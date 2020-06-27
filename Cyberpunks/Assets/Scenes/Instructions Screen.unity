@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1993,6 +1993,7 @@ GameObject:
   - component: {fileID: 1406514511}
   - component: {fileID: 1406514510}
   - component: {fileID: 1406514509}
+  - component: {fileID: 1406514513}
   m_Layer: 5
   m_Name: Play Button
   m_TagString: Untagged
@@ -2129,6 +2130,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406514507}
   m_CullTransparentMesh: 0
+--- !u!114 &1406514513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406514507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e82a128c42d4141b700fa7da3f21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: 0a712d6d3736ddd46a0607115cfa82c3, type: 3}
+  buttonSoundVolume: 0.2
 --- !u!1 &1634612878
 GameObject:
   m_ObjectHideFlags: 0

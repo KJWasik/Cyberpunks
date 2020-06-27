@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1414,6 +1414,7 @@ GameObject:
   - component: {fileID: 749011141}
   - component: {fileID: 749011140}
   - component: {fileID: 749011139}
+  - component: {fileID: 749011143}
   m_Layer: 5
   m_Name: Quit Button
   m_TagString: Untagged
@@ -1550,6 +1551,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749011137}
   m_CullTransparentMesh: 0
+--- !u!114 &749011143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749011137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e82a128c42d4141b700fa7da3f21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: 0a712d6d3736ddd46a0607115cfa82c3, type: 3}
+  buttonSoundVolume: 0.2
 --- !u!1 &776391536
 GameObject:
   m_ObjectHideFlags: 0
@@ -1760,6 +1775,7 @@ GameObject:
   - component: {fileID: 886161157}
   - component: {fileID: 886161156}
   - component: {fileID: 886161155}
+  - component: {fileID: 886161159}
   m_Layer: 5
   m_Name: Options Button
   m_TagString: Untagged
@@ -1896,6 +1912,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886161153}
   m_CullTransparentMesh: 0
+--- !u!114 &886161159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886161153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e82a128c42d4141b700fa7da3f21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: 0a712d6d3736ddd46a0607115cfa82c3, type: 3}
+  buttonSoundVolume: 0.2
 --- !u!1 &935258403
 GameObject:
   m_ObjectHideFlags: 0
@@ -3043,6 +3073,7 @@ GameObject:
   - component: {fileID: 1800673875}
   - component: {fileID: 1800673874}
   - component: {fileID: 1800673877}
+  - component: {fileID: 1800673878}
   m_Layer: 5
   m_Name: Start Button
   m_TagString: Untagged
@@ -3179,6 +3210,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1800673878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800673872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e82a128c42d4141b700fa7da3f21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: 0a712d6d3736ddd46a0607115cfa82c3, type: 3}
+  buttonSoundVolume: 0.2
 --- !u!1 &1942003022
 GameObject:
   m_ObjectHideFlags: 0

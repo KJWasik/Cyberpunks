@@ -643,6 +643,7 @@ GameObject:
   - component: {fileID: 7544259490031404166}
   - component: {fileID: 7544259490031404167}
   - component: {fileID: 1320600175823948583}
+  - component: {fileID: 5541059307642350770}
   m_Layer: 5
   m_Name: Menu Button
   m_TagString: Untagged
@@ -779,6 +780,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5541059307642350770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7544259490031404161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e82a128c42d4141b700fa7da3f21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: 0a712d6d3736ddd46a0607115cfa82c3, type: 3}
+  buttonSoundVolume: 0.2
 --- !u!1 &7544259490064317061
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,6 +807,7 @@ GameObject:
   - component: {fileID: 7544259490064317066}
   - component: {fileID: 7544259490064317067}
   - component: {fileID: 1320600175791060267}
+  - component: {fileID: 4606909192305225229}
   m_Layer: 5
   m_Name: Retry Button
   m_TagString: Untagged
@@ -928,6 +944,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4606909192305225229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7544259490064317061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e82a128c42d4141b700fa7da3f21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: 0a712d6d3736ddd46a0607115cfa82c3, type: 3}
+  buttonSoundVolume: 0.2
 --- !u!1 &8854409830514809644
 GameObject:
   m_ObjectHideFlags: 0
@@ -1097,6 +1127,7 @@ GameObject:
   - component: {fileID: 8854409830599647137}
   - component: {fileID: 8854409830599647138}
   - component: {fileID: 241258500}
+  - component: {fileID: 493707262748320455}
   m_Layer: 5
   m_Name: Continue Button
   m_TagString: Untagged
@@ -1233,3 +1264,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &493707262748320455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8854409830599639132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e82a128c42d4141b700fa7da3f21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: 0a712d6d3736ddd46a0607115cfa82c3, type: 3}
+  buttonSoundVolume: 0.2

@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -437,6 +437,7 @@ GameObject:
   - component: {fileID: 87193336}
   - component: {fileID: 87193335}
   - component: {fileID: 87193334}
+  - component: {fileID: 87193338}
   m_Layer: 5
   m_Name: Instructions Button
   m_TagString: Untagged
@@ -573,6 +574,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87193332}
   m_CullTransparentMesh: 0
+--- !u!114 &87193338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87193332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e82a128c42d4141b700fa7da3f21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: 0a712d6d3736ddd46a0607115cfa82c3, type: 3}
+  buttonSoundVolume: 0.2
 --- !u!1 &129206729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,6 +1476,7 @@ GameObject:
   - component: {fileID: 1004504895}
   - component: {fileID: 1004504894}
   - component: {fileID: 1004504893}
+  - component: {fileID: 1004504897}
   m_Layer: 5
   m_Name: Last Cop Button
   m_TagString: Untagged
@@ -1597,6 +1613,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004504891}
   m_CullTransparentMesh: 0
+--- !u!114 &1004504897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004504891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e82a128c42d4141b700fa7da3f21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: 0a712d6d3736ddd46a0607115cfa82c3, type: 3}
+  buttonSoundVolume: 0.2
 --- !u!1 &1020914614
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,6 +2141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayInSeconds: 3
+  timeSlider: {fileID: 0}
   menuName: Menu Screen
   level1Name: Level 1
   optionsName: Options Screen
@@ -2326,6 +2357,7 @@ GameObject:
   - component: {fileID: 2039111874}
   - component: {fileID: 2039111873}
   - component: {fileID: 2039111872}
+  - component: {fileID: 2039111876}
   m_Layer: 5
   m_Name: Next Cop Button
   m_TagString: Untagged
@@ -2462,6 +2494,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039111870}
   m_CullTransparentMesh: 0
+--- !u!114 &2039111876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039111870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e82a128c42d4141b700fa7da3f21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: 0a712d6d3736ddd46a0607115cfa82c3, type: 3}
+  buttonSoundVolume: 0.2
 --- !u!1 &2087346804
 GameObject:
   m_ObjectHideFlags: 0
