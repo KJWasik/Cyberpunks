@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5917290840942976964}
   - component: {fileID: 5917290840942976967}
   - component: {fileID: 1465344857}
+  - component: {fileID: 247293073}
   m_Layer: 0
   m_Name: Core Game Area
   m_TagString: Untagged
@@ -93,3 +94,20 @@ MonoBehaviour:
   - {fileID: 212583679164413041, guid: 325abe8498cd7b54c81cc996aea29a26, type: 3}
   maxTime: 10
   minTime: 5
+--- !u!114 &247293073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5917290840942976966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2620dc76c9b94f40878dba0f7ef8c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnAnimation: {fileID: 4302885242432054484, guid: a79670a1217ba7945a3591974cd3e47f,
+    type: 3}
+  taser: {fileID: -2723369735711057990, guid: 27f3e885967abcc45867125ff7dcfb82, type: 3}
+  maxTime: 20
+  minTime: 10

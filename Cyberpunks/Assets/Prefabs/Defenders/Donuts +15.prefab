@@ -685,7 +685,7 @@ MonoBehaviour:
   disappearAnimation: {fileID: 451161701643031988, guid: a73dcae6d6d40ea4a95d75a188525ef1,
     type: 3}
   disappearTime: 60
-  donutCost: 1
+  donutCost: 0
   timerBar: {fileID: 5369072781336844369}
 --- !u!95 &378741390
 Animator:

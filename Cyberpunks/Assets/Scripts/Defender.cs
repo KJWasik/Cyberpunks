@@ -30,7 +30,10 @@ public class Defender : MonoBehaviour
         time = disappearTime;
         while (time > 0)
         {
-            timerBar.fillAmount = time / disappearTime;
+            if (timerBar)
+            {
+                timerBar.fillAmount = time / disappearTime;
+            }
             yield return new WaitForSeconds(1f);
             time--;
         }

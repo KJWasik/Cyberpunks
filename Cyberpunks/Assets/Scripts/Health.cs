@@ -30,7 +30,10 @@ public class Health : MonoBehaviour
         TriggerHitVFX();
         ShowDamagePopup(damage);
         health -= damage;
-        healthBar.fillAmount = health / startHealth;
+        if (healthBar)
+        {
+            healthBar.fillAmount = health / startHealth;
+        }
 
         if (health <= 0)
         {
