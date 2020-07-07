@@ -26,10 +26,12 @@ public class Taser : MonoBehaviour
 
     private void OnMouseDown()
     {
-        StartCoroutine(WaitAndDestroy());
+        if (FindObjectOfType<LevelController>().IsPauseActive() == false)
+        {
+            StartCoroutine(WaitAndDestroy());
 
-        TaserEnemies(damage);
-
+            TaserEnemies(damage);
+        }
     }
 
     IEnumerator WaitAndDestroy()

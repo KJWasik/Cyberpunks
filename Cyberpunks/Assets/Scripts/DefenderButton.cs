@@ -35,15 +35,18 @@ public class DefenderButton : MonoBehaviour
 
     private void OnMouseDown()
     {
-        var buttons = FindObjectsOfType<DefenderButton>();
-
-        foreach (DefenderButton button in buttons)
+        if (FindObjectOfType<LevelController>().IsPauseActive() == false)
         {
-            button.GetComponent<SpriteRenderer>().color = new Color32(87, 87, 87, 255);
+            var buttons = FindObjectsOfType<DefenderButton>();
+
+            foreach (DefenderButton button in buttons)
+            {
+                button.GetComponent<SpriteRenderer>().color = new Color32(87, 87, 87, 255);
+            }
+
+            GetComponent<SpriteRenderer>().color = Color.white;
+
+            FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
         }
-
-        GetComponent<SpriteRenderer>().color = Color.white;
-
-        FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
     }
 }

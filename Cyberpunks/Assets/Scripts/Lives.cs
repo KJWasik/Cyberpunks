@@ -1,24 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
-public class Donut : MonoBehaviour
+public class Lives : MonoBehaviour
 {
     [SerializeField] GameObject clickedAnimation;
-    [SerializeField] int donutsToAdd = 5;
+    [SerializeField] int livesToAdd = 1;
     float delayInSeconds = 0.2f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnMouseDown()
@@ -27,7 +26,7 @@ public class Donut : MonoBehaviour
         {
             StartCoroutine(WaitAndDestroy());
 
-            AddDonuts(donutsToAdd);
+            AddLives(livesToAdd);
         }
     }
 
@@ -38,9 +37,9 @@ public class Donut : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void AddDonuts(int amount)
+    public void AddLives(int amount)
     {
-        FindObjectOfType<DonutDisplay>().AddDonuts(amount);
+        FindObjectOfType<LivesDisplay>().AddLife(amount);
     }
 
     private void TriggerClickedAnimation()

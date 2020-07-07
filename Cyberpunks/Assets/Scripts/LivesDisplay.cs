@@ -30,12 +30,23 @@ public class LivesDisplay : MonoBehaviour
 
     public void TakeLife()
     {
-        lives -= damage;
-        UpdateDisplay();
-        
-        if(lives <= 0)
+        if (lives > 0)
+        {
+            lives -= damage;
+            UpdateDisplay();
+        }
+
+        if (lives <= 0)
         {
             FindObjectOfType<LevelController>().HandleLoseCondition();
+        }
+    }
+    
+    public void AddLife(int livesToAdd)
+    {
+        if (lives > 0)
+        {
+            lives += livesToAdd;
         }
     }
 }

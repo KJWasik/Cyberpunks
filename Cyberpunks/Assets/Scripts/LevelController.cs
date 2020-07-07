@@ -10,6 +10,7 @@ public class LevelController : MonoBehaviour
     [SerializeField] float waitToLoad = 3f;
     int numberOfAttackers = 0;
     bool levelTimerFinished = false;
+    bool isPauseActive = false;
 
     // Start is called before the first frame update
     void Start()
@@ -43,10 +44,12 @@ public class LevelController : MonoBehaviour
             if (pauseScreen.activeSelf)
             {
                 Time.timeScale = 0f;
+                isPauseActive = true;
             }
             else
             {
                 Time.timeScale = 1f;
+                isPauseActive = false;
             }
         }
     }
@@ -69,6 +72,7 @@ public class LevelController : MonoBehaviour
     IEnumerator HandleWinCondition()
     {
         winScreen.SetActive(true);
+        isPauseActive = true;
         // GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(waitToLoad);
         FindObjectOfType<LevelLoader>().LoadNextScene();
@@ -77,6 +81,7 @@ public class LevelController : MonoBehaviour
     public void HandleLoseCondition()
     {
         loseScreen.SetActive(true);
+        isPauseActive = true;
         Time.timeScale = 0;
     }
 
@@ -93,5 +98,10 @@ public class LevelController : MonoBehaviour
         {
             spawner.StopSpawning();
         }
+    }
+
+    public bool IsPauseActive()
+    {
+        return isPauseActive;
     }
 }
