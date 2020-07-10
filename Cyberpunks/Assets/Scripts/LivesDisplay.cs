@@ -47,6 +47,7 @@ public class LivesDisplay : MonoBehaviour
         if (lives > 0)
         {
             lives += livesToAdd;
+            UpdateDisplay();
         }
     }
 }
