@@ -7,7 +7,7 @@ public class TaserSpawner : MonoBehaviour
     [SerializeField] GameObject spawnAnimation;
     [SerializeField] Taser taser;
     GameObject taserParent;
-    float delayInSeconds = 0.2f;
+    float delayInSeconds = 0.1f;
     public float maxTime = 20f;
     public float minTime = 10f;
     const string TASER_PARENT_NAME = "Taser";

@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c06d58acc77904f4b9706b28e6e61159, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickedAnimation: {fileID: 4302885242432054484, guid: a79670a1217ba7945a3591974cd3e47f,
+  clickedAnimation: {fileID: 89789783975887932, guid: ad84e0fb3faf9e64499ee27ff8c2e81f,
     type: 3}
   tasedAnimation: {fileID: 3858387351443509692, guid: bcfdc9e225bd5f2429afe46332f56f46,
     type: 3}
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31abcf59bec116a4e875a6585724606b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disappearAnimation: {fileID: 4302885242432054484, guid: a79670a1217ba7945a3591974cd3e47f,
+  disappearAnimation: {fileID: 89789783975887932, guid: ad84e0fb3faf9e64499ee27ff8c2e81f,
     type: 3}
   disappearTime: 60
   donutCost: 0

@@ -166,7 +166,7 @@ MonoBehaviour:
   disappearAnimation: {fileID: 4302885242432054484, guid: a79670a1217ba7945a3591974cd3e47f,
     type: 3}
   disappearTime: 15
-  donutCost: 12
+  donutCost: 10
   timerBar: {fileID: 7129624199488892631}
 --- !u!114 &6724908199905380411
 MonoBehaviour:

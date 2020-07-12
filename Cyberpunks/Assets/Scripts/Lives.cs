@@ -6,7 +6,7 @@ public class Lives : MonoBehaviour
 {
     [SerializeField] GameObject clickedAnimation;
     [SerializeField] int livesToAdd = 1;
-    float delayInSeconds = 0.2f;
+    float delayInSeconds = 0.1f;
 
     // Start is called before the first frame update
     void Start()

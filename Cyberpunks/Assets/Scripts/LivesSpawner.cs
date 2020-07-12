@@ -7,7 +7,7 @@ public class LivesSpawner : MonoBehaviour
     [SerializeField] GameObject spawnAnimation;
     [SerializeField] Lives[] lives;
     GameObject livesParent;
-    float delayInSeconds = 0.2f;
+    float delayInSeconds = 0.1f;
     public float maxTime = 20f;
     public float minTime = 10f;
     const string LIVES_PARENT_NAME = "Lives";

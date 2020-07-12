@@ -7,7 +7,7 @@ public class DefenderSpawner : MonoBehaviour
     [SerializeField] GameObject spawnAnimation;
     Defender defender;
     GameObject defenderParent;
-    float delayInSeconds = 0.2f;
+    float delayInSeconds = 0.1f;
     const string DEFENDER_PARENT_NAME = "Defenders";
     bool defenderSelected = false;
 

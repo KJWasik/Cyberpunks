@@ -328,8 +328,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disappearAnimation: {fileID: 4302885242432054484, guid: a79670a1217ba7945a3591974cd3e47f,
     type: 3}
-  disappearTime: 20
-  donutCost: 10
+  disappearTime: 15
+  donutCost: 6
   timerBar: {fileID: 6808408971164214140}
 --- !u!114 &6351510967731495494
 MonoBehaviour:

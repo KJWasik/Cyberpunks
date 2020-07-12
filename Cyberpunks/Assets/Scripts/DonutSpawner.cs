@@ -8,7 +8,7 @@ public class DonutSpawner : MonoBehaviour
     [SerializeField] GameObject spawnAnimation;
     [SerializeField] Donut[] donuts;
     GameObject donutParent;
-    float delayInSeconds = 0.2f;
+    float delayInSeconds = 0.1f;
     public float maxTime = 8f;
     public float minTime = 5f;
     const string DONUT_PARENT_NAME = "Donuts";

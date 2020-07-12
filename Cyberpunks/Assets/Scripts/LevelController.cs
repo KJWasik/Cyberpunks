@@ -71,7 +71,10 @@ public class LevelController : MonoBehaviour
 
     IEnumerator HandleWinCondition()
     {
-        winScreen.SetActive(true);
+        if (winScreen)
+        {
+            winScreen.SetActive(true);
+        }
         isPauseActive = true;
         // GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(waitToLoad);
@@ -80,7 +83,10 @@ public class LevelController : MonoBehaviour
 
     public void HandleLoseCondition()
     {
-        loseScreen.SetActive(true);
+        if (loseScreen)
+        {
+            loseScreen.SetActive(true);
+        }
         isPauseActive = true;
         Time.timeScale = 0;
     }

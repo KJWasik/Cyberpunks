@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpeed: 25
-  damage: 500
+  damage: 300
   explosionVFX: {fileID: 1968106297884061850, guid: 4a8628a621c92a647ad299d4f7666489,
     type: 3}
   hitSound: {fileID: 8300000, guid: a578daf306c3ac049aaad38b8015fb60, type: 3}

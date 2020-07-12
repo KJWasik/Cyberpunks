@@ -10,7 +10,7 @@ public class Taser : MonoBehaviour
     [SerializeField] AudioClip tasedSound;
     [SerializeField] [Range(0, 1)] float tasedSoundVolume = 0.3f;
     [SerializeField] float damage = 50;
-    float delayInSeconds = 0.2f;
+    float delayInSeconds = 0.1f;
 
     // Start is called before the first frame update
     void Start()

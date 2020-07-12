@@ -322,7 +322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startHealth: 1
   hitVFX: {fileID: 0}
-  deathVFX: {fileID: 0}
+  deathVFX: {fileID: 89789783975887932, guid: ad84e0fb3faf9e64499ee27ff8c2e81f, type: 3}
   damagePopup: {fileID: 0}
   healthBar: {fileID: 0}
 --- !u!114 &2675732135228566982
@@ -337,7 +337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a45e889356d6d4bac6b4ce64f2e2ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickedAnimation: {fileID: 4302885242432054484, guid: a79670a1217ba7945a3591974cd3e47f,
+  clickedAnimation: {fileID: 89789783975887932, guid: ad84e0fb3faf9e64499ee27ff8c2e81f,
     type: 3}
   livesToAdd: 1
 --- !u!114 &2675732135228566983
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31abcf59bec116a4e875a6585724606b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disappearAnimation: {fileID: 4302885242432054484, guid: a79670a1217ba7945a3591974cd3e47f,
+  disappearAnimation: {fileID: 89789783975887932, guid: ad84e0fb3faf9e64499ee27ff8c2e81f,
     type: 3}
   disappearTime: 60
   donutCost: 1

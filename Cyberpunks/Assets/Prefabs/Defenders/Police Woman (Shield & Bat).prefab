@@ -136,7 +136,7 @@ MonoBehaviour:
   disappearAnimation: {fileID: 4302885242432054484, guid: a79670a1217ba7945a3591974cd3e47f,
     type: 3}
   disappearTime: 40
-  donutCost: 5
+  donutCost: 3
   timerBar: {fileID: 7369836917160799864}
 --- !u!61 &1212745996472745212
 BoxCollider2D:
