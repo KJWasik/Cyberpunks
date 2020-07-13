@@ -7,6 +7,8 @@ public class Donut : MonoBehaviour
 {
     [SerializeField] GameObject clickedAnimation;
     [SerializeField] int donutsToAdd = 5;
+    [SerializeField] AudioClip clickedSound;
+    [SerializeField] [Range(0, 1)] float clickedSoundVolume = 0.3f;
     float delayInSeconds = 0.1f;
 
     // Start is called before the first frame update
@@ -34,6 +36,7 @@ public class Donut : MonoBehaviour
     IEnumerator WaitAndDestroy()
     {
         TriggerClickedAnimation();
+        TriggerClickedSound();
         yield return new WaitForSeconds(delayInSeconds);
         Destroy(gameObject);
     }
@@ -49,6 +52,14 @@ public class Donut : MonoBehaviour
         {
             GameObject newSpawnAnimation = Instantiate(clickedAnimation, transform.position, Quaternion.identity);
             Destroy(newSpawnAnimation, 0.3f);
+        }
+    }
+
+    private void TriggerClickedSound()
+    {
+        if (clickedSound)
+        {
+            AudioSource.PlayClipAtPoint(clickedSound, Camera.main.transform.position, clickedSoundVolume);
         }
     }
 }

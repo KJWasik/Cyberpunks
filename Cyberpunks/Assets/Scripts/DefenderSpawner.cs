@@ -5,6 +5,8 @@ using UnityEngine;
 public class DefenderSpawner : MonoBehaviour
 {
     [SerializeField] GameObject spawnAnimation;
+    [SerializeField] AudioClip spawnSound;
+    [SerializeField] [Range(0, 1)] float spawnSoundVolume = 0.3f;
     Defender defender;
     GameObject defenderParent;
     float delayInSeconds = 0.1f;
@@ -84,6 +86,7 @@ public class DefenderSpawner : MonoBehaviour
     IEnumerator WaitAndSpawn(Vector2 positionToSpawn)
     {
         TriggerSpawnAnimation(positionToSpawn);
+        TriggerSpawnSound();
         yield return new WaitForSeconds(delayInSeconds);
         SpawnDefender(positionToSpawn);
     }
@@ -94,6 +97,14 @@ public class DefenderSpawner : MonoBehaviour
         {
             GameObject newSpawnAnimation = Instantiate(spawnAnimation, positionToSpawn, Quaternion.identity);
             Destroy(newSpawnAnimation, 0.3f);
+        }
+    }
+
+    private void TriggerSpawnSound()
+    {
+        if (spawnSound)
+        {
+            AudioSource.PlayClipAtPoint(spawnSound, Camera.main.transform.position, spawnSoundVolume);
         }
     }
 

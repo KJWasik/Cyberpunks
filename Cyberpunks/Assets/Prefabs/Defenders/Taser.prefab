@@ -54,7 +54,7 @@ MonoBehaviour:
   tasedAnimation: {fileID: 3858387351443509692, guid: bcfdc9e225bd5f2429afe46332f56f46,
     type: 3}
   tasedSound: {fileID: 8300000, guid: e7de7d7a65a8de14fb1313799a7b6b84, type: 3}
-  tasedSoundVolume: 0.5
+  tasedSoundVolume: 0.3
   damage: 500
 --- !u!61 &1012660893608126945
 BoxCollider2D:
@@ -98,6 +98,8 @@ MonoBehaviour:
   hitVFX: {fileID: 0}
   deathVFX: {fileID: 1968106297884061850, guid: 4a8628a621c92a647ad299d4f7666489,
     type: 3}
+  deathSound: {fileID: 8300000, guid: a578daf306c3ac049aaad38b8015fb60, type: 3}
+  deathSoundVolume: 0.3
   damagePopup: {fileID: 0}
   healthBar: {fileID: 0}
 --- !u!114 &350235514214847747
@@ -116,6 +118,8 @@ MonoBehaviour:
     type: 3}
   disappearTime: 60
   donutCost: 0
+  disappearSound: {fileID: 8300000, guid: 80c572aa989930141985e699d5985bd6, type: 3}
+  disappearSoundVolume: 0.1
   timerBar: {fileID: 0}
 --- !u!95 &1276529383
 Animator:

@@ -132,8 +132,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c743d8d2148b74e9a83b70513f4d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSound: {fileID: 8300000, guid: fc9bdc3875dac7a49a327bf476d0d853, type: 3}
-  hitSoundVolume: 0.05
+  hitSound: {fileID: 8300000, guid: 7f3335e4f2fdf7b4383a74fbb67d7475, type: 3}
+  hitSoundVolume: 0.3
 --- !u!114 &9049270136314283398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +162,8 @@ MonoBehaviour:
   hitVFX: {fileID: 8689930597795280961, guid: ed9e86437dbc7504da4df63ed11f32fe, type: 3}
   deathVFX: {fileID: 1429249357676530391, guid: 439c907f8cbae3242aeb82d2b9d5a3b6,
     type: 3}
+  deathSound: {fileID: 8300000, guid: 8489dbf21d7d5be479f6daeca6f0d54a, type: 3}
+  deathSoundVolume: 0.3
   damagePopup: {fileID: 2109071335114538585, guid: bec218a009b4cd1438588551c33a894e,
     type: 3}
   healthBar: {fileID: 877617563235871433}

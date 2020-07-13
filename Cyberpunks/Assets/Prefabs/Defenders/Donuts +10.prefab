@@ -337,6 +337,8 @@ MonoBehaviour:
   startHealth: 1
   hitVFX: {fileID: 0}
   deathVFX: {fileID: 89789783975887932, guid: ad84e0fb3faf9e64499ee27ff8c2e81f, type: 3}
+  deathSound: {fileID: 8300000, guid: 80c572aa989930141985e699d5985bd6, type: 3}
+  deathSoundVolume: 0.3
   damagePopup: {fileID: 0}
   healthBar: {fileID: 6179497913478902244}
 --- !u!114 &7032269838605721438
@@ -354,6 +356,8 @@ MonoBehaviour:
   clickedAnimation: {fileID: 89789783975887932, guid: ad84e0fb3faf9e64499ee27ff8c2e81f,
     type: 3}
   donutsToAdd: 10
+  clickedSound: {fileID: 8300000, guid: c83e7e62e25961646877b5de9cced61e, type: 3}
+  clickedSoundVolume: 0.3
 --- !u!114 &5411306979843694116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,6 +374,8 @@ MonoBehaviour:
     type: 3}
   disappearTime: 60
   donutCost: 0
+  disappearSound: {fileID: 8300000, guid: 80c572aa989930141985e699d5985bd6, type: 3}
+  disappearSoundVolume: 0.1
   timerBar: {fileID: 8580522327851745880}
 --- !u!95 &1440367504
 Animator:

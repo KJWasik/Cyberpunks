@@ -137,6 +137,8 @@ MonoBehaviour:
     type: 3}
   disappearTime: 40
   donutCost: 3
+  disappearSound: {fileID: 8300000, guid: 80c572aa989930141985e699d5985bd6, type: 3}
+  disappearSoundVolume: 0.1
   timerBar: {fileID: 7369836917160799864}
 --- !u!61 &1212745996472745212
 BoxCollider2D:
@@ -199,6 +201,8 @@ MonoBehaviour:
   hitVFX: {fileID: 8689930597795280961, guid: ed9e86437dbc7504da4df63ed11f32fe, type: 3}
   deathVFX: {fileID: 1429249357676530391, guid: 439c907f8cbae3242aeb82d2b9d5a3b6,
     type: 3}
+  deathSound: {fileID: 8300000, guid: 8489dbf21d7d5be479f6daeca6f0d54a, type: 3}
+  deathSoundVolume: 0.3
   damagePopup: {fileID: 2109071335114538585, guid: bec218a009b4cd1438588551c33a894e,
     type: 3}
   healthBar: {fileID: 3996401465302164218}
@@ -235,8 +239,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90abd763901ea6c4883d46193407774d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSound: {fileID: 8300000, guid: fc9bdc3875dac7a49a327bf476d0d853, type: 3}
-  hitSoundVolume: 0.05
+  hitSound: {fileID: 8300000, guid: 7f3335e4f2fdf7b4383a74fbb67d7475, type: 3}
+  hitSoundVolume: 0.3
 --- !u!1 &4230128907222666320
 GameObject:
   m_ObjectHideFlags: 0

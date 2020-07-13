@@ -8,6 +8,8 @@ public class Defender : MonoBehaviour
     [SerializeField] GameObject disappearAnimation;
     [SerializeField] float disappearTime = 10f;
     [SerializeField] int donutCost = 5;
+    [SerializeField] AudioClip disappearSound;
+    [SerializeField] [Range(0, 1)] float disappearSoundVolume = 0.3f;
     public Image timerBar;
     float delayInSeconds = 0.2f;
     private float time = 0f;
@@ -38,6 +40,7 @@ public class Defender : MonoBehaviour
             time--;
         }
         TriggerDisappearAnimation();
+        TriggerDisappearSound();
         Destroy(gameObject, delayInSeconds);
     }
 
@@ -52,6 +55,14 @@ public class Defender : MonoBehaviour
         {
             GameObject newSpawnAnimation = Instantiate(disappearAnimation, transform.position, Quaternion.identity);
             Destroy(newSpawnAnimation, 0.3f);
+        }
+    }
+
+    private void TriggerDisappearSound()
+    {
+        if (disappearSound)
+        {
+            AudioSource.PlayClipAtPoint(disappearSound, Camera.main.transform.position, disappearSoundVolume);
         }
     }
 }

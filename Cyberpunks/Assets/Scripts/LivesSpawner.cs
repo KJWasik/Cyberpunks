@@ -6,6 +6,8 @@ public class LivesSpawner : MonoBehaviour
 {
     [SerializeField] GameObject spawnAnimation;
     [SerializeField] Lives[] lives;
+    [SerializeField] AudioClip spawnSound;
+    [SerializeField] [Range(0, 1)] float spawnSoundVolume = 0.3f;
     GameObject livesParent;
     float delayInSeconds = 0.1f;
     public float maxTime = 20f;
@@ -82,6 +84,7 @@ public class LivesSpawner : MonoBehaviour
     IEnumerator WaitAndSpawn(Vector2 positionToSpawn)
     {
         TriggerSpawnAnimation(positionToSpawn);
+        TriggerSpawnSound();
         yield return new WaitForSeconds(delayInSeconds);
         SpawnLives(positionToSpawn);
     }
@@ -92,6 +95,14 @@ public class LivesSpawner : MonoBehaviour
         {
             GameObject newSpawnAnimation = Instantiate(spawnAnimation, positionToSpawn, Quaternion.identity);
             Destroy(newSpawnAnimation, 0.3f);
+        }
+    }
+
+    private void TriggerSpawnSound()
+    {
+        if (spawnSound)
+        {
+            AudioSource.PlayClipAtPoint(spawnSound, Camera.main.transform.position, spawnSoundVolume);
         }
     }
 

@@ -52,6 +52,8 @@ MonoBehaviour:
     type: 3}
   disappearTime: 40
   donutCost: 2
+  disappearSound: {fileID: 8300000, guid: 80c572aa989930141985e699d5985bd6, type: 3}
+  disappearSoundVolume: 0.1
   timerBar: {fileID: 1804390946251766646}
 --- !u!114 &7872944917522191767
 MonoBehaviour:
@@ -69,6 +71,8 @@ MonoBehaviour:
   hitVFX: {fileID: 7576759580302603445, guid: 5950cd9ed5122c44081e66e3131fd8fe, type: 3}
   deathVFX: {fileID: 1564971203014091643, guid: cb14af06ab9c9044499cf4e775c1399f,
     type: 3}
+  deathSound: {fileID: 0}
+  deathSoundVolume: 0.3
   damagePopup: {fileID: 2109071335114538585, guid: bec218a009b4cd1438588551c33a894e,
     type: 3}
   healthBar: {fileID: 2088203517013618109}

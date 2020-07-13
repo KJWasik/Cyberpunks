@@ -6,6 +6,8 @@ public class TaserSpawner : MonoBehaviour
 {
     [SerializeField] GameObject spawnAnimation;
     [SerializeField] Taser taser;
+    [SerializeField] AudioClip spawnSound;
+    [SerializeField] [Range(0, 1)] float spawnSoundVolume = 0.3f;
     GameObject taserParent;
     float delayInSeconds = 0.1f;
     public float maxTime = 20f;
@@ -82,6 +84,7 @@ public class TaserSpawner : MonoBehaviour
     IEnumerator WaitAndSpawn(Vector2 positionToSpawn)
     {
         TriggerSpawnAnimation(positionToSpawn);
+        TriggerSpawnSound();
         yield return new WaitForSeconds(delayInSeconds);
         SpawnTaser(positionToSpawn);
     }
@@ -92,6 +95,14 @@ public class TaserSpawner : MonoBehaviour
         {
             GameObject newSpawnAnimation = Instantiate(spawnAnimation, positionToSpawn, Quaternion.identity);
             Destroy(newSpawnAnimation, 0.3f);
+        }
+    }
+
+    private void TriggerSpawnSound()
+    {
+        if (spawnSound)
+        {
+            AudioSource.PlayClipAtPoint(spawnSound, Camera.main.transform.position, spawnSoundVolume);
         }
     }
 
