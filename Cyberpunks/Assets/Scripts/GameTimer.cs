@@ -31,7 +31,6 @@ public class GameTimer : MonoBehaviour
         {
             FindObjectOfType<LevelController>().LevelTimerFinished();
             triggeredLevelFinished = true;
-            Debug.Log("Level finished!");
         }
     }
 }

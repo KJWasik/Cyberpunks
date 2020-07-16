@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 43588765}
   - component: {fileID: 43588764}
   m_Layer: 5
-  m_Name: Health Bar
+  m_Name: Time Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 61761521}
   - component: {fileID: 61761520}
   m_Layer: 5
-  m_Name: Health Bar Background
+  m_Name: Power Bar Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2172,7 +2172,7 @@ GameObject:
   - component: {fileID: 1515837352}
   - component: {fileID: 1515837351}
   m_Layer: 5
-  m_Name: Health Bar Background
+  m_Name: Time Bar Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2246,7 +2246,7 @@ GameObject:
   - component: {fileID: 1961366445}
   - component: {fileID: 1961366444}
   m_Layer: 5
-  m_Name: Health Bar
+  m_Name: Power Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2801,7 +2801,7 @@ MonoBehaviour:
   nameTextShadow: {fileID: 936071417}
   artworkImage: {fileID: 833303398}
   powerBarImage: {fileID: 1961366444}
-  costBarImage: {fileID: 1254242545206499084}
+  healthBarImage: {fileID: 1254242545206499084}
   timeBarImage: {fileID: 43588764}
 --- !u!224 &24644826391757211
 RectTransform:

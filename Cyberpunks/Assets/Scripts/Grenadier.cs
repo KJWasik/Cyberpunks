@@ -14,6 +14,18 @@ public class Grenadier : MonoBehaviour
         ThrowRay();
     }
 
+    private void OnTriggerEnter2D(Collider2D otherCollider)
+    {
+        {
+            GameObject defender = otherCollider.gameObject;
+
+            if (defender.GetComponent<Defender>())
+            {
+                GetComponent<Attacker>().Attack(defender);
+            }
+        }
+    }
+
     void ThrowRay()
     {
         for (int i = 0; i <throwDistances.Length; i++)

@@ -17,5 +17,5 @@ MonoBehaviour:
   nameBottomColor: {r: 0.03137255, g: 0.15294118, b: 0.24705884, a: 0}
   artwork: {fileID: 21300000, guid: ba5fd45616b1c594caa6b7abc23ce45f, type: 3}
   power: 1
-  cost: 1
-  time: 0.5
+  health: 0.2
+  time: 0.2

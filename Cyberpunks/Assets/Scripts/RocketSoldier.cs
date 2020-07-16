@@ -17,6 +17,18 @@ public class RocketSoldier : MonoBehaviour
         ShootRay();
     }
 
+    private void OnTriggerEnter2D(Collider2D otherCollider)
+    {
+        {
+            GameObject defender = otherCollider.gameObject;
+
+            if (defender.GetComponent<Defender>())
+            {
+                GetComponent<Attacker>().Attack(defender);
+            }
+        }
+    }
+
     void ShootRay()
     {
         for (int i = 0; i < shootDistances.Length; i++)

@@ -11,6 +11,7 @@ public class Taser : MonoBehaviour
     [SerializeField] [Range(0, 1)] float tasedSoundVolume = 0.3f;
     [SerializeField] float damage = 50;
     float delayInSeconds = 0.1f;
+    static bool isTaserInLevel = false;
 
     // Start is called before the first frame update
     void Start()
@@ -29,8 +30,8 @@ public class Taser : MonoBehaviour
         if (FindObjectOfType<LevelController>().IsPauseActive() == false)
         {
             StartCoroutine(WaitAndDestroy());
-
             TaserEnemies(damage);
+            isTaserInLevel = false;
         }
     }
 
@@ -82,5 +83,19 @@ public class Taser : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(tasedSound, Camera.main.transform.position, tasedSoundVolume);
         }
+    }
+
+    public bool IsTaserInLevel()
+    {
+        return isTaserInLevel;
+    }
+
+    public void TaserSpawned()
+    {
+        isTaserInLevel = true;
+    }
+    public void TaserDestroyed()
+    {
+        isTaserInLevel = false;
     }
 }

@@ -19,6 +19,7 @@ public class TaserSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        taser.TaserDestroyed();
         CreateTaserParent();
         SetRandomTime();
         time = minTime;
@@ -31,7 +32,10 @@ public class TaserSpawner : MonoBehaviour
 
         if (time >= spawnTime)
         {
-            AttemptToSpawnTaserAt(GetSpawnPosition());
+            if (taser.IsTaserInLevel() == false)
+            {
+                AttemptToSpawnTaserAt(GetSpawnPosition());
+            }
             SetRandomTime();
         }
     }
@@ -79,6 +83,7 @@ public class TaserSpawner : MonoBehaviour
     {
         Taser newTaser = Instantiate(taser, positionToSpawn, Quaternion.identity) as Taser;
         newTaser.transform.parent = taserParent.transform; // Adding to a parent object
+        taser.TaserSpawned();
     }
 
     IEnumerator WaitAndSpawn(Vector2 positionToSpawn)

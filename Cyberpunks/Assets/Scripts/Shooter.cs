@@ -7,13 +7,14 @@ public class Shooter : MonoBehaviour
     [SerializeField] GameObject projectile;
     [SerializeField] GameObject weapon;
     [SerializeField] GameObject shootVFX;
+    [SerializeField] AudioClip shootSound;
+    [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.3f;
+
+    float positionToStartAttack = 9f;
     Animator animator;
     GameObject projectileParent;
     const string PROJECTILE_PARENT_NAME = "Projectiles";
     AttackerSpawner myLaneSpawner;
-
-    [SerializeField] AudioClip shootSound;
-    [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.3f;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +27,7 @@ public class Shooter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (IsAttackerInLane())
+        if (IsAttackerInLane() && IsAttackerCloseEnough())
         {
             animator.SetBool("isShooting", true);
         }
@@ -96,5 +97,20 @@ public class Shooter : MonoBehaviour
         {
             return true;
         }
-    }    
+    }
+    
+    private bool IsAttackerCloseEnough()
+    {
+        var allattackers = FindObjectsOfType<Attacker>();
+
+        foreach (Attacker attacker in allattackers)
+        {
+            var attackerPosition = new Vector2(attacker.transform.position.x, attacker.transform.position.y);
+            if (this.transform.position.y == attacker.transform.position.y && attackerPosition.x <= positionToStartAttack)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }

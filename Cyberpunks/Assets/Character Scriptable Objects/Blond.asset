@@ -16,6 +16,6 @@ MonoBehaviour:
   nameTopColor: {r: 0.9058824, g: 0.8588236, b: 0.54901963, a: 0}
   nameBottomColor: {r: 0.08627451, g: 0.20784315, b: 0.2784314, a: 0}
   artwork: {fileID: 21300000, guid: aea3df1b31b69724f8f5b802dcb7de27, type: 3}
-  power: 0.4
-  cost: 0.4
-  time: 0.8
+  power: 0.2
+  health: 1
+  time: 0.7

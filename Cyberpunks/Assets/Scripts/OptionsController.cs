@@ -13,7 +13,8 @@ public class OptionsController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        volumeSlider.value = PlayerPrefsController.GetMasterVolume();
+        //volumeSlider.value = PlayerPrefsController.GetMasterVolume();
+        volumeSlider.value = PlayerSettings.GetVolume();
         difficultyDisplay = FindObjectOfType<DifficultyDisplay>();
     }
 
@@ -50,8 +51,10 @@ public class OptionsController : MonoBehaviour
 
     public void SaveAndExit()
     {
-        PlayerPrefsController.SetMasterVolume(volumeSlider.value);
-        PlayerPrefsController.SetDifficulty(difficultyDisplay.GetDifficulty());
+       // PlayerPrefsController.SetMasterVolume(volumeSlider.value);
+        PlayerSettings.SetVolume(volumeSlider.value);
+        //PlayerPrefsController.SetDifficulty(difficultyDisplay.GetDifficulty());
+        PlayerSettings.SetDifficulty(difficultyDisplay.GetDifficulty());
         FindObjectOfType<LevelLoader>().LoadMainMenu();
     }
 

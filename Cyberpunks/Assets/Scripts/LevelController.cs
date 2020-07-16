@@ -76,7 +76,6 @@ public class LevelController : MonoBehaviour
             winScreen.SetActive(true);
         }
         isPauseActive = true;
-        // GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(waitToLoad);
         FindObjectOfType<LevelLoader>().LoadNextScene();
     }

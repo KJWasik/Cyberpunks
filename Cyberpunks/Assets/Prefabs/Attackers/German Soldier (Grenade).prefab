@@ -1,35 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2968101055296117437
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5358584942352422564}
-  m_Layer: 0
-  m_Name: Throw Distance Close
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5358584942352422564
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2968101055296117437}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.41, y: 0.69, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6291192641821289239}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4896740352448333009
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,7 +60,6 @@ Transform:
   m_Children:
   - {fileID: 6291192642909655069}
   - {fileID: 1102945735181992466}
-  - {fileID: 5358584942352422564}
   m_Father: {fileID: 6291192643246066232}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -243,7 +212,6 @@ MonoBehaviour:
   throwPoint: {fileID: 6291192642909655069}
   throwDistances:
   - {fileID: 1102945735181992466}
-  - {fileID: 5358584942352422564}
 --- !u!114 &6291192643246066228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 109b6b887d08e6844ae7ad703749723e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startHealth: 60
+  startHealth: 80
   hitVFX: {fileID: 8689930597795280961, guid: ed9e86437dbc7504da4df63ed11f32fe, type: 3}
   deathVFX: {fileID: 1429249357676530391, guid: 439c907f8cbae3242aeb82d2b9d5a3b6,
     type: 3}

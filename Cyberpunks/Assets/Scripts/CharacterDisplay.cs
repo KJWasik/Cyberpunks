@@ -14,7 +14,7 @@ public class CharacterDisplay : MonoBehaviour
 
     public GameObject artworkImage;
     public Image powerBarImage;
-    public Image costBarImage;
+    public Image healthBarImage;
     public Image timeBarImage;
 
     private int index = 0;
@@ -50,7 +50,7 @@ public class CharacterDisplay : MonoBehaviour
         artworkImage.GetComponent<SpriteRenderer>().sprite = characterScreens.ElementAt(index).artwork;
 
         powerBarImage.fillAmount = characterScreens.ElementAt(index).power;
-        costBarImage.fillAmount = characterScreens.ElementAt(index).cost;
+        healthBarImage.fillAmount = characterScreens.ElementAt(index).health;
         timeBarImage.fillAmount = characterScreens.ElementAt(index).time;
     }
 

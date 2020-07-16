@@ -13,6 +13,6 @@ public class CharacterScreen : ScriptableObject
     public Sprite artwork;
 
     public float power;
-    public float cost;
+    public float health;
     public float time;
 }

@@ -11,7 +11,8 @@ public class MusicPlayer : MonoBehaviour
     {
         DontDestroyOnLoad(this);
         audioSource = GetComponent<AudioSource>();
-        audioSource.volume = PlayerPrefsController.GetMasterVolume();
+        //audioSource.volume = PlayerPrefsController.GetMasterVolume();
+        audioSource.volume = PlayerSettings.GetVolume();
     }
 
     // Update is called once per frame
@@ -22,6 +23,9 @@ public class MusicPlayer : MonoBehaviour
 
     public void SetVolume(float volumeToSet)
     {
-        audioSource.volume = volumeToSet;
+        if (audioSource)
+        {
+            audioSource.volume = volumeToSet;
+        }
     }
 }

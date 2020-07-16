@@ -42,6 +42,11 @@ public class Health : MonoBehaviour
             TriggerDeathVFX();
             TriggerDeathSound();
             Destroy(gameObject, 0.2f);
+
+            if (GetComponent<Taser>())
+            {
+                FindObjectOfType<Taser>().TaserDestroyed();
+            }
         }
     }
 
